@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -102,6 +103,102 @@ def fetch_davenport_home():
         })
     return items
 
+
+def fetch_youtube_headlines():
+    api_key = os.getenv("YOUTUBE_API_KEY", "").strip()
+    output = DATA / "youtube-headlines.json"
+    if not api_key:
+        output.write_text(json.dumps([{
+            "title": "YouTube API key not configured",
+            "channel": "Setup Required",
+            "url": "pages/youtube-setup.html",
+            "publishedAt": "Pending API key",
+            "query": "Clermont FL OR Auburndale FL OR Lakeland FL",
+            "description": "Add a GitHub Actions secret named YOUTUBE_API_KEY, then run the Fetch Live Data workflow."
+        }], indent=2), encoding="utf-8")
+        return
+
+    queries = [
+        "\"Clermont FL\" news",
+        "\"Auburndale FL\" news",
+        "\"Lakeland FL\" news",
+        "\"Polk County FL\" development",
+        "\"Lakeland FL\" restaurant opening",
+        "\"Auburndale FL\" development",
+        "\"Clermont FL\" development"
+    ]
+    collected = []
+    after = (datetime.now(timezone.utc).replace(microsecond=0)).isoformat().replace("+00:00", "Z")
+    # Use a 30-day window
+    from datetime import timedelta
+    after = (datetime.now(timezone.utc) - timedelta(days=30)).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+    for q in queries:
+        try:
+            params = {
+                "part": "snippet",
+                "type": "video",
+                "order": "date",
+                "maxResults": 5,
+                "q": q,
+                "publishedAfter": after,
+                "regionCode": "US",
+                "relevanceLanguage": "en",
+                "safeSearch": "moderate",
+                "key": api_key
+            }
+            r = requests.get("https://www.googleapis.com/youtube/v3/search", params=params, headers=HEADERS, timeout=20)
+            r.raise_for_status()
+            data = r.json()
+            for item in data.get("items", []):
+                video_id = item.get("id", {}).get("videoId")
+                snip = item.get("snippet", {})
+                if not video_id:
+                    continue
+                title = snip.get("title", "")
+                desc = snip.get("description", "")
+                text = f"{title} {desc}"
+                if not relevant(text):
+                    continue
+                collected.append({
+                    "title": title,
+                    "channel": snip.get("channelTitle", "YouTube"),
+                    "url": f"https://www.youtube.com/watch?v={video_id}",
+                    "publishedAt": snip.get("publishedAt", ""),
+                    "query": q,
+                    "description": desc[:260]
+                })
+        except Exception as e:
+            collected.append({
+                "title": "YouTube search failed",
+                "channel": "YouTube Data API",
+                "url": "pages/youtube-setup.html",
+                "publishedAt": datetime.now(timezone.utc).isoformat(),
+                "query": q,
+                "description": str(e)[:260]
+            })
+
+    deduped = []
+    seen = set()
+    for item in collected:
+        key = item.get("url")
+        if key not in seen:
+            seen.add(key)
+            deduped.append(item)
+
+    if not deduped:
+        deduped = [{
+            "title": "No recent YouTube matches found",
+            "channel": "YouTube Data API",
+            "url": "https://www.youtube.com/",
+            "publishedAt": datetime.now(timezone.utc).isoformat(),
+            "query": "Local city searches",
+            "description": "The workflow ran, but no recent matching YouTube videos were found."
+        }]
+
+    output.write_text(json.dumps(deduped[:20], indent=2), encoding="utf-8")
+
+
 def main():
     items = []
     items.extend(fetch_auburndale_wp())
@@ -126,6 +223,8 @@ def main():
         }]
 
     (DATA / "live-news.json").write_text(json.dumps(deduped[:20], indent=2), encoding="utf-8")
+    fetch_youtube_headlines()
+
     (DATA / "last-updated.json").write_text(json.dumps({
         "lastUpdatedUtc": datetime.now(timezone.utc).isoformat(),
         "note": "Updated by GitHub Actions workflow"

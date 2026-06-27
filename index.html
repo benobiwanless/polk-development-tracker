@@ -21,6 +21,7 @@
         <a href="#map">Map</a>
         <a href="pages/sources.html">Sources</a>
         <a href="pages/automation.html">Automation</a>
+        <a href="#youtubeHeadlines">YouTube</a>
         <a href="pages/submit.html">Submit Tip</a>
       </div>
     </nav>
@@ -28,7 +29,7 @@
     <section class="hero-content">
       <p class="eyebrow">Auburndale + 30-mile region</p>
       <h1>Live development tracker for Polk County.</h1>
-      <p class="subtitle">Track restaurants, retail, housing, roads, entertainment, and major developments from planning to opening day. Version 6 adds automated source fetching through GitHub Actions.</p>
+      <p class="subtitle">Track restaurants, retail, housing, roads, entertainment, and major developments from planning to opening day. Version 7 adds YouTube headline pulling for Clermont, Auburndale, Lakeland, and Polk County.</p>
       <div class="search-row">
         <input id="searchInput" type="search" placeholder="Search city, project, category, or status..." />
         <select id="cityFilter"><option value="All">All Cities</option></select>
@@ -51,6 +52,14 @@
 
     <section class="featured" id="featured"></section>
 
+
+
+    <section id="youtubeHeadlines">
+      <div class="section-head">
+        <div><p class="eyebrow">YouTube</p><h2>Local Video Headlines</h2></div>
+      </div>
+      <section id="youtubeGrid" class="grid compact"></section>
+    </section>
 
     <section id="liveSources">
       <div class="section-head">

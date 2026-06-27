@@ -45,3 +45,27 @@ function renderLiveNews(){
     .catch(()=>{});
 }
 renderLiveNews();
+
+
+function renderYouTubeHeadlines(){
+  fetch("data/youtube-headlines.json?cache=" + Date.now())
+    .then(r=>r.json())
+    .then(items=>{
+      const grid=document.getElementById("youtubeGrid");
+      if(!grid) return;
+      grid.innerHTML=items.slice(0,8).map(item=>`
+        <article class="card">
+          <span class="tag">YouTube</span>
+          <h3>${item.title}</h3>
+          <p class="meta">${item.channel || "YouTube"}${item.publishedAt ? " • " + item.publishedAt.substring(0,10) : ""}</p>
+          <p>${item.description || ""}</p>
+          <a class="read-more" href="${item.url}" target="_blank">Watch / open →</a>
+        </article>
+      `).join("");
+    })
+    .catch(()=>{
+      const grid=document.getElementById("youtubeGrid");
+      if(grid) grid.innerHTML='<p class="meta">YouTube data has not been generated yet.</p>';
+    });
+}
+renderYouTubeHeadlines();
