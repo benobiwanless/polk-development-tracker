@@ -1,0 +1,7 @@
+body{margin:0;font-family:Arial,sans-serif;background:#111827;color:#fff}
+header{padding:20px;background:#1f2937;text-align:center}
+#search{display:block;width:90%;max-width:700px;margin:20px auto;padding:12px;border-radius:8px;border:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:12px;padding:20px}
+.stats div,.card{background:#1f2937;padding:16px;border-radius:10px}
+.card h3{margin:0 0 8px}
+#stories{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:15px;padding:20px}
