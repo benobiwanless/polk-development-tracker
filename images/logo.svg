@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330">
+<rect width="760" height="330" fill="none"/>
+<circle cx="380" cy="76" r="62" fill="#f8b21b"/>
+<path d="M160 150 C260 100 360 120 450 95 C530 78 590 98 650 130 C530 126 470 172 370 165 C290 160 230 135 160 150Z" fill="#2f8c3a"/>
+<path d="M155 174 C260 140 360 170 455 148 C530 130 600 144 660 165 C535 178 478 205 370 194 C280 185 225 160 155 174Z" fill="#1684c7"/>
+<path d="M240 145 h26 v-38 h20 v38 h16 v-70 h24 v70 h18 v-50 h22 v50 h24 v-82 h26 v82 h24 v-48 h22 v48 h22 v-28 h22 v28" fill="#06204b"/>
+<path d="M505 145 v-48 l42-30 42 30 v48h-84z" fill="#06204b"/>
+<path d="M535 145 v-32 h25 v32" fill="#fff"/>
+<path d="M282 82 h85" stroke="#06204b" stroke-width="9"/>
+<path d="M290 82 l-35 48" stroke="#06204b" stroke-width="7"/>
+<path d="M360 82 l35 48" stroke="#06204b" stroke-width="7"/>
+<path d="M315 82 v-48 h60" stroke="#06204b" stroke-width="7" fill="none"/>
+<text x="380" y="245" text-anchor="middle" font-family="Arial Black, Arial" font-size="116" fill="#06204b">POLK</text>
+<line x1="165" y1="274" x2="265" y2="274" stroke="#2f8c3a" stroke-width="5"/>
+<line x1="495" y1="274" x2="595" y2="274" stroke="#2f8c3a" stroke-width="5"/>
+<text x="380" y="286" text-anchor="middle" font-family="Arial Black, Arial" font-size="30" fill="#2f8c3a">DEVELOPMENT TRACKER</text>
+<text x="380" y="318" text-anchor="middle" font-family="Arial Black, Arial" font-size="20" fill="#06204b">BUILDING A BETTER POLK COUNTY</text>
+</svg>

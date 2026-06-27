@@ -1,43 +1,33 @@
 # Polk Development Tracker
 
-## Version 8: Positive Growth News
+Simple GitHub Pages website.
 
-This build narrows the site to happy Polk County, Florida growth news only.
+## Files
 
-### Included topics
+- `index.html`
+- `style.css`
+- `script.js`
+- `data/news.json`
+- `images/`
 
-- New highways
-- Road expansions
-- Developments
-- Housing
-- Apartments
-- Restaurants
-- Hotels
-- Retail
-- Shopping centers
-- Grand openings
-- Business expansions
+## How to add a story
 
-### Excluded topics
+Edit `data/news.json` and add another story object.
 
-- Crime
-- Arrests
-- Fatal crashes
-- Politics
-- Scandals
-- Lawsuits
-- Disasters
-- Threats
-- Negative breaking news
+Example:
 
-### YouTube
+```json
+{
+  "title": "New Restaurant Coming to Lakeland",
+  "category": "Restaurants",
+  "city": "Lakeland, FL",
+  "date": "June 1, 2025",
+  "image": "images/culvers.svg",
+  "summary": "Short positive summary here.",
+  "link": "https://example.com"
+}
+```
 
-YouTube queries now focus on Polk County growth and development terms only.
+## Publish on GitHub Pages
 
-GitHub secret required:
-
-`YOUTUBE_API_KEY`
-
-Then run:
-
-Actions → Fetch Live Data → Run workflow
+Upload all files to the root of your repo.

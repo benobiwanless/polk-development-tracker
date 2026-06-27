@@ -4,118 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Polk Development Tracker</title>
-  <meta name="description" content="Tracking restaurants, retail, housing, road projects, and development news in Polk County, Florida." />
-  <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <meta name="description" content="Positive Polk County growth news: restaurants, housing, hotels, retail, roads, and business openings." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <a class="brand" href="index.html">🏗️ Polk Development Tracker</a>
-      <button id="menuBtn" class="menu-btn">Menu</button>
-      <div class="nav-links" id="navLinks">
-        <a href="#feed">Feed</a>
-        <a href="#comingSoon">Coming Soon</a>
-        <a href="#opened">Opened</a>
-        <a href="#map">Map</a>
-        <a href="pages/sources.html">Sources</a>
-        <a href="pages/focus.html">Focus</a>
-        <a href="pages/automation.html">Automation</a>
-        <a href="#youtubeHeadlines">YouTube</a>
-        <a href="pages/submit.html">Submit Tip</a>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-bg"></div>
+      <img src="images/logo.svg" alt="Polk Development Tracker" class="logo" />
+    </header>
+
+    <main>
+      <section class="intro">
+        <h1>What’s New in Polk County</h1>
+        <p>Tracking new developments, businesses, and infrastructure that are shaping our community.</p>
+      </section>
+
+      <section class="categories" id="categories">
+        <button class="active" data-category="All">All</button>
+        <button data-category="Restaurants">🍴 Restaurants</button>
+        <button data-category="Housing">🏠 Housing</button>
+        <button data-category="Hotels">🛏️ Hotels</button>
+        <button data-category="Retail">🛍️ Retail</button>
+        <button data-category="Roads">🛣️ Roads</button>
+        <button data-category="Coffee">☕ Coffee</button>
+        <button data-category="Business">💼 Business</button>
+      </section>
+
+      <section class="news-grid" id="newsGrid"></section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="images/logo.svg" alt="" />
       </div>
-    </nav>
-
-    <section class="hero-content">
-      <p class="eyebrow">Auburndale + 30-mile region</p>
-      <h1>Positive growth news for Polk County.</h1>
-      <p class="subtitle">Only happy local growth stories: new highways, developments, housing, restaurants, hotels, retail, and openings across Polk County, Florida.</p>
-      <div class="search-row">
-        <input id="searchInput" type="search" placeholder="Search city, project, category, or status..." />
-        <select id="cityFilter"><option value="All">All Cities</option></select>
+      <p>Polk Development Tracker is your source for positive growth and development updates across Polk County, Florida.</p>
+      <div class="footer-location">
+        <span>📍 Polk County, Florida</span>
+        <small>© 2025 Polk Development Tracker</small>
       </div>
-    </section>
-  </header>
+    </footer>
+  </div>
 
-  <main>
-    <section class="stats" id="stats"></section>
-
-    <section class="filters" id="filters">
-      <button class="active" data-category="All">All</button>
-      <button data-category="Restaurant">Restaurants</button>
-      <button data-category="Retail">Retail</button>
-      <button data-category="Housing">Housing</button>
-      <button data-category="Roads">Roads</button>
-      <button data-category="Business">Business</button>
-      <button data-category="Entertainment">Entertainment</button>
-    </section>
-
-    <section class="featured" id="featured"></section>
-
-
-
-    <section id="youtubeHeadlines">
-      <div class="section-head">
-        <div><p class="eyebrow">YouTube</p><h2>Positive Polk County Video Headlines</h2></div>
-      </div>
-      <section id="youtubeGrid" class="grid compact"></section>
-    </section>
-
-    <section id="liveSources">
-      <div class="section-head">
-        <div><p class="eyebrow">Growth News</p><h2>Latest Positive Updates</h2></div>
-        <p id="lastUpdated" class="meta"></p>
-      </div>
-      <section id="liveNewsGrid" class="grid compact"></section>
-    </section>
-
-    <section id="comingSoon">
-      <div class="section-head">
-        <div><p class="eyebrow">Pipeline</p><h2>Coming Soon</h2></div>
-      </div>
-      <section id="comingSoonGrid" class="grid compact"></section>
-    </section>
-
-    <section id="opened">
-      <div class="section-head">
-        <div><p class="eyebrow">Now Open</p><h2>Recently Opened</h2></div>
-      </div>
-      <section id="openedGrid" class="grid compact"></section>
-    </section>
-
-    <section id="feed">
-      <div class="section-head">
-        <div><p class="eyebrow">Latest</p><h2>All Tracked Projects</h2></div>
-        <p id="resultCount"></p>
-      </div>
-      <section id="projectGrid" class="grid"></section>
-    </section>
-
-    <section id="map" class="map-section">
-      <div class="section-head">
-        <div><p class="eyebrow">Map</p><h2>Project Locations</h2></div>
-      </div>
-      <div id="developmentMap"></div>
-    </section>
-  </main>
-
-  <footer>
-    <div>
-      <strong>Polk Development Tracker</strong>
-      <p>Tracking what’s coming to Polk County.</p>
-    </div>
-    <div class="footer-links">
-      <a href="pages/sources.html">Sources</a>
-        <a href="pages/sources.html">Sources</a>
-      <a href="pages/submit.html">Submit Tip</a>
-      <a href="pages/cities/auburndale.html">Auburndale</a>
-      <a href="pages/cities/lakeland.html">Lakeland</a>
-      <a href="pages/cities/winter-haven.html">Winter Haven</a>
-    </div>
-  </footer>
-
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="js/app.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
