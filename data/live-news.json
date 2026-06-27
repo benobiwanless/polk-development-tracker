@@ -1,9 +1,0 @@
-[
-  {
-    "title": "Live feed not run yet",
-    "source": "GitHub Actions",
-    "url": "https://github.com/benobiwanless/polk-development-tracker/actions",
-    "date": "Pending first run",
-    "summary": "After this version is uploaded, GitHub Actions can fetch source updates and write them into data/live-news.json."
-  }
-]
