@@ -1,24 +1,22 @@
 # Polk Development Tracker
 
-Static GitHub Pages version.
+GitHub Pages static site.
 
-## What is included
+## Version 4
 
-- Homepage
-- Search
-- Category filters
-- City filter
-- Featured project
-- Project detail pages
+- Stronger project database
+- Coming Soon section
+- Recently Opened section
+- City pages
+- Project timelines
+- Mobile menu
 - Interactive map
-- Submit tip placeholder page
-- PWA manifest
-- JSON data source
+- Search, category filter, and city filter
 
-## Update stories
+## How to add projects
 
-Edit `data/stories.json`.
+Edit `data/projects.json`.
 
 ## Publish
 
-Upload all files to the root of the GitHub repo and enable GitHub Pages.
+Upload all files to the root of the GitHub repo.

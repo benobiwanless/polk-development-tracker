@@ -13,8 +13,11 @@
   <header class="hero">
     <nav class="nav">
       <a class="brand" href="index.html">🏗️ Polk Development Tracker</a>
-      <div class="nav-links">
+      <button id="menuBtn" class="menu-btn">Menu</button>
+      <div class="nav-links" id="navLinks">
         <a href="#feed">Feed</a>
+        <a href="#comingSoon">Coming Soon</a>
+        <a href="#opened">Opened</a>
         <a href="#map">Map</a>
         <a href="pages/submit.html">Submit Tip</a>
       </div>
@@ -22,8 +25,8 @@
 
     <section class="hero-content">
       <p class="eyebrow">Auburndale + 30-mile region</p>
-      <h1>Tracking what’s coming to Polk County.</h1>
-      <p class="subtitle">Restaurants, retail, housing, road projects, and major developments around Auburndale, Lakeland, Winter Haven, Davenport, Haines City, and nearby communities.</p>
+      <h1>What’s being built around Polk County?</h1>
+      <p class="subtitle">Track restaurants, retail, housing, roads, entertainment, and major developments from planning to opening day.</p>
       <div class="search-row">
         <input id="searchInput" type="search" placeholder="Search city, project, category, or status..." />
         <select id="cityFilter"><option value="All">All Cities</option></select>
@@ -41,34 +44,52 @@
       <button data-category="Housing">Housing</button>
       <button data-category="Roads">Roads</button>
       <button data-category="Business">Business</button>
+      <button data-category="Entertainment">Entertainment</button>
     </section>
 
     <section class="featured" id="featured"></section>
 
+    <section id="comingSoon">
+      <div class="section-head">
+        <div><p class="eyebrow">Pipeline</p><h2>Coming Soon</h2></div>
+      </div>
+      <section id="comingSoonGrid" class="grid compact"></section>
+    </section>
+
+    <section id="opened">
+      <div class="section-head">
+        <div><p class="eyebrow">Now Open</p><h2>Recently Opened</h2></div>
+      </div>
+      <section id="openedGrid" class="grid compact"></section>
+    </section>
+
     <section id="feed">
       <div class="section-head">
-        <div>
-          <p class="eyebrow">Latest</p>
-          <h2>Development Feed</h2>
-        </div>
+        <div><p class="eyebrow">Latest</p><h2>All Tracked Projects</h2></div>
         <p id="resultCount"></p>
       </div>
-      <section id="storyGrid" class="grid"></section>
+      <section id="projectGrid" class="grid"></section>
     </section>
 
     <section id="map" class="map-section">
       <div class="section-head">
-        <div>
-          <p class="eyebrow">Map</p>
-          <h2>Project Locations</h2>
-        </div>
+        <div><p class="eyebrow">Map</p><h2>Project Locations</h2></div>
       </div>
       <div id="developmentMap"></div>
     </section>
   </main>
 
   <footer>
-    <p>Polk Development Tracker • GitHub Pages Version</p>
+    <div>
+      <strong>Polk Development Tracker</strong>
+      <p>Tracking what’s coming to Polk County.</p>
+    </div>
+    <div class="footer-links">
+      <a href="pages/submit.html">Submit Tip</a>
+      <a href="pages/cities/auburndale.html">Auburndale</a>
+      <a href="pages/cities/lakeland.html">Lakeland</a>
+      <a href="pages/cities/winter-haven.html">Winter Haven</a>
+    </div>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
