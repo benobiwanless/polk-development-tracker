@@ -1,16 +1,65 @@
 <!DOCTYPE html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Polk Development Tracker</title><link rel="stylesheet" href="style.css"></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polk Development Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
 <body>
-<header><h1>🏗️ Polk Development Tracker</h1><p>Tracking What's Coming to Polk County</p></header>
-<input id="search" placeholder="Search developments...">
-<div class="stats">
-<div><b id="projects">217</b><span>Projects</span></div>
-<div><b>42</b><span>Restaurants</span></div>
-<div><b>18</b><span>Retail</span></div>
-<div><b>64</b><span>Housing</span></div>
-</div>
-<h2>Latest Stories</h2>
-<div id="stories"></div>
-<script src="script.js"></script>
-</body></html>
+  <header class="hero">
+    <nav>
+      <div class="brand">🏗️ Polk Development Tracker</div>
+      <a href="#map">Map</a>
+    </nav>
+
+    <section class="hero-content">
+      <p class="eyebrow">Auburndale • Lakeland • Winter Haven • Davenport • Haines City</p>
+      <h1>Tracking what’s coming to Polk County</h1>
+      <p class="subtitle">Restaurants, retail, housing, road projects, and major developments within the Auburndale region.</p>
+      <input id="searchInput" type="search" placeholder="Search by city, project, category, or status..." />
+    </section>
+  </header>
+
+  <main>
+    <section class="stats" id="stats"></section>
+
+    <section class="filters" id="filters">
+      <button class="active" data-category="All">All</button>
+      <button data-category="Restaurant">Restaurants</button>
+      <button data-category="Retail">Retail</button>
+      <button data-category="Housing">Housing</button>
+      <button data-category="Roads">Roads</button>
+      <button data-category="Business">Business</button>
+    </section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Latest</p>
+        <h2>Development Feed</h2>
+      </div>
+      <p id="resultCount"></p>
+    </section>
+
+    <section id="storyGrid" class="grid"></section>
+
+    <section id="map" class="map-section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Map</p>
+          <h2>Project Locations</h2>
+        </div>
+      </div>
+      <div id="developmentMap"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Polk Development Tracker • Version 2 sample build</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

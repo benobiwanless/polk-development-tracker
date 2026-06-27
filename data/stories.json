@@ -1,5 +1,52 @@
 [
-{"title":"Texas Roadhouse Planned","city":"Auburndale","category":"Restaurant","summary":"New restaurant planned near I-4."},
-{"title":"450 Homes Approved","city":"Winter Haven","category":"Housing","summary":"Large residential community approved."},
-{"title":"Retail Center Proposed","city":"Lakeland","category":"Retail","summary":"New shopping center proposal filed."}
+  {
+    "title": "New Restaurant Site Planned Near Auburndale",
+    "city": "Auburndale",
+    "category": "Restaurant",
+    "status": "Planned",
+    "summary": "A new restaurant project has been added to the tracker near the Auburndale growth corridor.",
+    "lat": 28.0653,
+    "lng": -81.7887,
+    "source": "#"
+  },
+  {
+    "title": "Retail Center Proposed in Lakeland",
+    "city": "Lakeland",
+    "category": "Retail",
+    "status": "Proposed",
+    "summary": "A commercial retail project is being tracked in the Lakeland area.",
+    "lat": 28.0395,
+    "lng": -81.9498,
+    "source": "#"
+  },
+  {
+    "title": "Housing Development Approved in Winter Haven",
+    "city": "Winter Haven",
+    "category": "Housing",
+    "status": "Approved",
+    "summary": "A residential community has been added to the housing development pipeline.",
+    "lat": 28.0222,
+    "lng": -81.7329,
+    "source": "#"
+  },
+  {
+    "title": "Road Improvement Project Added",
+    "city": "Haines City",
+    "category": "Roads",
+    "status": "Under Construction",
+    "summary": "A transportation improvement project has been added for tracking.",
+    "lat": 28.1142,
+    "lng": -81.6179,
+    "source": "#"
+  },
+  {
+    "title": "Business Expansion Listed",
+    "city": "Bartow",
+    "category": "Business",
+    "status": "Coming Soon",
+    "summary": "A local business expansion has been added to the Polk Development Tracker sample feed.",
+    "lat": 27.8964,
+    "lng": -81.8431,
+    "source": "#"
+  }
 ]
