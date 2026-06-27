@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eef7ff"/><stop offset="1" stop-color="#fff"/></linearGradient></defs>
+<rect width="900" height="560" fill="url(#g)"/>
+<circle cx="710" cy="125" r="170" fill="#0b73d9" opacity=".23"/>
+<circle cx="210" cy="430" r="220" fill="#0b73d9" opacity=".18"/>
+<text x="65" y="115" font-size="74" font-family="Arial Black, Arial">🏨</text>
+<text x="65" y="214" font-size="58" font-family="Arial Black, Arial" fill="#061b42">Hotels</text>
+<path d="M70 405 C210 300 382 450 540 345 C660 265 760 315 840 250" fill="none" stroke="#0b73d9" stroke-width="28" stroke-linecap="round"/>
+<path d="M70 455 H830" stroke="#061b42" stroke-width="12" opacity=".2"/>
+</svg>

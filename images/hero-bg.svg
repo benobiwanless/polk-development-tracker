@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="420" viewBox="0 0 1800 420">
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bde5ff"/><stop offset=".7" stop-color="#ffffff"/></linearGradient><linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fc1ea"/><stop offset="1" stop-color="#dff4ff"/></linearGradient></defs>
+<rect width="1800" height="420" fill="url(#sky)"/>
+<circle cx="260" cy="58" r="32" fill="#fff" opacity=".9"/><circle cx="305" cy="58" r="23" fill="#fff" opacity=".9"/><circle cx="1380" cy="70" r="38" fill="#fff" opacity=".86"/><circle cx="1435" cy="78" r="25" fill="#fff" opacity=".86"/>
+<path d="M0 220 C230 155 380 218 590 178 C790 140 930 208 1105 180 C1320 145 1500 190 1800 150 V420 H0Z" fill="#cae8b7"/>
+<path d="M0 252 C280 200 470 260 690 223 C900 188 1060 252 1275 214 C1490 174 1645 214 1800 190 V420 H0Z" fill="url(#water)"/>
+<path d="M700 255 C825 235 980 240 1100 265 C910 285 780 278 700 255Z" fill="#fff" opacity=".5"/>
+<path d="M1372 245 C1390 195 1414 195 1434 245 C1412 225 1392 225 1372 245Z" fill="#fff" opacity=".95"/>
+<rect x="85" y="164" width="70" height="52" rx="5" fill="#fff9ea"/><rect x="176" y="148" width="98" height="68" rx="6" fill="#fff"/><rect x="1445" y="150" width="90" height="70" rx="5" fill="#fff5df"/><rect x="1550" y="130" width="102" height="90" rx="6" fill="#fff"/>
+</svg>
