@@ -4,21 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Polk Development Tracker</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Tracking restaurants, retail, housing, road projects, and development news in Polk County, Florida." />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
   <header class="hero">
-    <nav>
-      <div class="brand">🏗️ Polk Development Tracker</div>
-      <a href="#map">Map</a>
+    <nav class="nav">
+      <a class="brand" href="index.html">🏗️ Polk Development Tracker</a>
+      <div class="nav-links">
+        <a href="#feed">Feed</a>
+        <a href="#map">Map</a>
+        <a href="pages/submit.html">Submit Tip</a>
+      </div>
     </nav>
 
     <section class="hero-content">
-      <p class="eyebrow">Auburndale • Lakeland • Winter Haven • Davenport • Haines City</p>
-      <h1>Tracking what’s coming to Polk County</h1>
-      <p class="subtitle">Restaurants, retail, housing, road projects, and major developments within the Auburndale region.</p>
-      <input id="searchInput" type="search" placeholder="Search by city, project, category, or status..." />
+      <p class="eyebrow">Auburndale + 30-mile region</p>
+      <h1>Tracking what’s coming to Polk County.</h1>
+      <p class="subtitle">Restaurants, retail, housing, road projects, and major developments around Auburndale, Lakeland, Winter Haven, Davenport, Haines City, and nearby communities.</p>
+      <div class="search-row">
+        <input id="searchInput" type="search" placeholder="Search city, project, category, or status..." />
+        <select id="cityFilter"><option value="All">All Cities</option></select>
+      </div>
     </section>
   </header>
 
@@ -34,15 +43,18 @@
       <button data-category="Business">Business</button>
     </section>
 
-    <section class="section-head">
-      <div>
-        <p class="eyebrow">Latest</p>
-        <h2>Development Feed</h2>
-      </div>
-      <p id="resultCount"></p>
-    </section>
+    <section class="featured" id="featured"></section>
 
-    <section id="storyGrid" class="grid"></section>
+    <section id="feed">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Latest</p>
+          <h2>Development Feed</h2>
+        </div>
+        <p id="resultCount"></p>
+      </div>
+      <section id="storyGrid" class="grid"></section>
+    </section>
 
     <section id="map" class="map-section">
       <div class="section-head">
@@ -56,10 +68,10 @@
   </main>
 
   <footer>
-    <p>Polk Development Tracker • Version 2 sample build</p>
+    <p>Polk Development Tracker • GitHub Pages Version</p>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="script.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

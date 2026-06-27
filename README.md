@@ -1,17 +1,24 @@
 # Polk Development Tracker
 
-A local development tracking website for Polk County, Florida.
+Static GitHub Pages version.
 
-## Version 2 includes
+## What is included
 
-- Responsive homepage
-- Development story cards
+- Homepage
 - Search
 - Category filters
-- Live stats from JSON data
-- Interactive Leaflet map
-- Sample project data
+- City filter
+- Featured project
+- Project detail pages
+- Interactive map
+- Submit tip placeholder page
+- PWA manifest
+- JSON data source
 
-## GitHub Pages
+## Update stories
 
-Upload these files to the root of your repository, then enable GitHub Pages from Settings > Pages.
+Edit `data/stories.json`.
+
+## Publish
+
+Upload all files to the root of the GitHub repo and enable GitHub Pages.
