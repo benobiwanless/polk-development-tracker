@@ -20,14 +20,15 @@
         <a href="#opened">Opened</a>
         <a href="#map">Map</a>
         <a href="pages/sources.html">Sources</a>
+        <a href="pages/automation.html">Automation</a>
         <a href="pages/submit.html">Submit Tip</a>
       </div>
     </nav>
 
     <section class="hero-content">
       <p class="eyebrow">Auburndale + 30-mile region</p>
-      <h1>What’s being built around Polk County?</h1>
-      <p class="subtitle">Track restaurants, retail, housing, roads, entertainment, and major developments from planning to opening day.</p>
+      <h1>Live development tracker for Polk County.</h1>
+      <p class="subtitle">Track restaurants, retail, housing, roads, entertainment, and major developments from planning to opening day. Version 6 adds automated source fetching through GitHub Actions.</p>
       <div class="search-row">
         <input id="searchInput" type="search" placeholder="Search city, project, category, or status..." />
         <select id="cityFilter"><option value="All">All Cities</option></select>
@@ -49,6 +50,15 @@
     </section>
 
     <section class="featured" id="featured"></section>
+
+
+    <section id="liveSources">
+      <div class="section-head">
+        <div><p class="eyebrow">Live Sources</p><h2>Latest Pulled Updates</h2></div>
+        <p id="lastUpdated" class="meta"></p>
+      </div>
+      <section id="liveNewsGrid" class="grid compact"></section>
+    </section>
 
     <section id="comingSoon">
       <div class="section-head">

@@ -13,3 +13,35 @@ document.getElementById("searchInput").addEventListener("input",renderProjects);
 document.querySelectorAll("[data-category]").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll("[data-category]").forEach(b=>b.classList.remove("active"));btn.classList.add("active");activeCategory=btn.dataset.category;renderProjects();}));
 function initMap(){map=L.map("developmentMap").setView([28.0395,-81.7887],10);L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:"&copy; OpenStreetMap"}).addTo(map);updateMapMarkers(allProjects);}
 function updateMapMarkers(list){if(!map)return;markers.forEach(m=>map.removeLayer(m));markers=list.map(s=>L.marker([s.lat,s.lng]).addTo(map).bindPopup(`<strong>${s.title}</strong><br>${s.city}<br>${s.category} • ${s.status}<br><a href="pages/project.html?id=${s.id}">View project</a>`));}
+
+
+function renderLiveNews(){
+  fetch("data/live-news.json?cache=" + Date.now())
+    .then(r=>r.json())
+    .then(items=>{
+      const grid=document.getElementById("liveNewsGrid");
+      if(!grid) return;
+      grid.innerHTML=items.slice(0,6).map(item=>`
+        <article class="card">
+          <span class="tag">Live Source</span>
+          <h3>${item.title}</h3>
+          <p class="meta">${item.source}${item.date ? " • " + item.date.substring(0,10) : ""}</p>
+          <p>${item.summary || ""}</p>
+          <a class="read-more" href="${item.url}" target="_blank">Open source →</a>
+        </article>
+      `).join("");
+    })
+    .catch(()=>{
+      const grid=document.getElementById("liveNewsGrid");
+      if(grid) grid.innerHTML='<p class="meta">Live source data has not been generated yet.</p>';
+    });
+
+  fetch("data/last-updated.json?cache=" + Date.now())
+    .then(r=>r.json())
+    .then(info=>{
+      const el=document.getElementById("lastUpdated");
+      if(el && info.lastUpdatedUtc) el.textContent="Updated " + new Date(info.lastUpdatedUtc).toLocaleString();
+    })
+    .catch(()=>{});
+}
+renderLiveNews();
