@@ -1,10 +1,10 @@
 [
   {
-    "title": "YouTube headlines not connected yet",
+    "title": "Positive Polk County growth headlines not connected yet",
     "channel": "Setup Required",
     "url": "pages/youtube-setup.html",
     "publishedAt": "Pending API key",
-    "query": "Clermont FL OR Auburndale FL OR Lakeland FL",
-    "description": "Add a YouTube Data API key as a GitHub secret named YOUTUBE_API_KEY, then run the Fetch Live Data workflow."
+    "query": "Polk County FL development restaurants hotels housing highways",
+    "description": "Add a YouTube Data API key as YOUTUBE_API_KEY, then run the Fetch Live Data workflow. This build filters for positive growth/development topics only."
   }
 ]

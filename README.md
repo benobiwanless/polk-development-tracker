@@ -1,32 +1,43 @@
 # Polk Development Tracker
 
-## Version 7: YouTube Headlines Build
+## Version 8: Positive Growth News
 
-This version adds YouTube headline pulling for:
+This build narrows the site to happy Polk County, Florida growth news only.
 
-- Clermont FL
-- Auburndale FL
-- Lakeland FL
-- Polk County FL development/news
+### Included topics
 
-## Files added/changed
+- New highways
+- Road expansions
+- Developments
+- Housing
+- Apartments
+- Restaurants
+- Hotels
+- Retail
+- Shopping centers
+- Grand openings
+- Business expansions
 
-- `data/youtube-headlines.json`
-- `pages/youtube-setup.html`
-- `tools/fetch_sources.py`
-- `.github/workflows/fetch-live-data.yml`
-- homepage YouTube section
+### Excluded topics
 
-## Required setup
+- Crime
+- Arrests
+- Fatal crashes
+- Politics
+- Scandals
+- Lawsuits
+- Disasters
+- Threats
+- Negative breaking news
 
-YouTube search requires an official YouTube Data API key.
+### YouTube
 
-1. Create a YouTube Data API v3 key in Google Cloud.
-2. In GitHub, go to repo → Settings → Secrets and variables → Actions.
-3. Add a repository secret:
-   - Name: `YOUTUBE_API_KEY`
-   - Value: your API key
-4. Go to repo → Actions → Fetch Live Data → Run workflow.
-5. Refresh the GitHub Pages site.
+YouTube queries now focus on Polk County growth and development terms only.
 
-The workflow runs every 6 hours.
+GitHub secret required:
+
+`YOUTUBE_API_KEY`
+
+Then run:
+
+Actions → Fetch Live Data → Run workflow
