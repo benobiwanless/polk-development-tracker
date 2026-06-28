@@ -2,9 +2,6 @@
 
 Positive development news site for Polk County, Florida.
 
-## Test locally
-Open `index.html` in a browser.
-
 ## Upload to GitHub
 Upload everything in this folder to the root of your public repo:
 
@@ -15,6 +12,15 @@ GitHub Pages settings can stay as:
 - Source: Deploy from a branch
 - Branch: main
 - Folder: /(root)
+
+## Version 3 changes
+
+- Full-width layout
+- Removed the auto-refresh badge and browser meta refresh
+- Dynamic cards loaded from `data/news.json`
+- Search, category filter, and city filter
+- Larger featured story and larger desktop layout
+- Mobile-friendly responsive layout
 
 ## Auto updates
 The workflow in `.github/workflows/update-news.yml` runs every 15 minutes and updates `data/news.json`.
