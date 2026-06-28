@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="refresh" content="900" />
+  <title>Polk Development Tracker</title>
+  <meta name="description" content="Positive Polk County, Florida development news: housing, restaurants, retail, hotels, and infrastructure." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="site-shell">
+    <header class="hero">
+      <div class="hero-art"></div>
+      <img class="brand" src="assets/header-logo.png" alt="Polk Development Tracker" />
+      <div class="status-pill">Auto-refreshes every 15 minutes</div>
+    </header>
+
+    <section class="intro">
+      <p class="eyebrow">What's New in Polk County</p>
+      <h1>Positive development news for Polk County, Florida</h1>
+      <p>New housing, restaurants, retail, hotels, infrastructure, and community investment.</p>
+    </section>
+
+    <section class="stats" id="stats" aria-label="Development stats"></section>
+
+    <section class="controls" aria-label="Filters">
+      <input id="search" type="search" placeholder="Search projects, cities, restaurants..." />
+      <select id="categoryFilter">
+        <option value="all">All categories</option>
+        <option>Housing</option>
+        <option>Restaurants</option>
+        <option>Retail</option>
+        <option>Hotels</option>
+        <option>Infrastructure</option>
+        <option>Development</option>
+      </select>
+      <select id="cityFilter">
+        <option value="all">All cities</option>
+      </select>
+    </section>
+
+    <section id="cards" class="cards" aria-live="polite"></section>
+
+    <footer>
+      <img src="assets/header-logo.png" alt="Polk Development Tracker" />
+      <p>Positive growth and development updates across Polk County, Florida. Sources are linked on each card.</p>
+      <p class="updated">Last updated: <span id="updatedAt">Loading…</span></p>
+    </footer>
+  </main>
+
+  <script>
+    const cardsEl = document.getElementById('cards');
+    const statsEl = document.getElementById('stats');
+    const updatedEl = document.getElementById('updatedAt');
+    const searchEl = document.getElementById('search');
+    const categoryEl = document.getElementById('categoryFilter');
+    const cityEl = document.getElementById('cityFilter');
+    let allItems = [];
+
+    const icon = {
+      Housing: '🏘️', Restaurants: '🍽️', Retail: '🛍️', Hotels: '🏨', Infrastructure: '🚧', Development: '🏗️'
+    };
+
+    function esc(v) {
+      return String(v ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    }
+
+    function cityOf(item) {
+      return (item.location || 'Polk County, FL').replace(', FL', '').trim();
+    }
+
+    function renderStats(items) {
+      const cats = ['Housing', 'Restaurants', 'Retail', 'Hotels', 'Infrastructure'];
+      statsEl.innerHTML = [
+        `<article><strong>${items.length}</strong><span>Total Updates</span></article>`,
+        ...cats.map(cat => `<article><strong>${items.filter(i => i.category === cat).length}</strong><span>${icon[cat]} ${cat}</span></article>`)
+      ].join('');
+    }
+
+    function renderCards() {
+      const q = searchEl.value.trim().toLowerCase();
+      const category = categoryEl.value;
+      const city = cityEl.value;
+      const items = allItems.filter(item => {
+        const text = `${item.title} ${item.summary} ${item.location} ${item.category}`.toLowerCase();
+        return (!q || text.includes(q)) && (category === 'all' || item.category === category) && (city === 'all' || cityOf(item) === city);
+      });
+
+      if (!items.length) {
+        cardsEl.innerHTML = '<p class="empty">No matching updates yet.</p>';
+        return;
+      }
+
+      cardsEl.innerHTML = items.map((item, idx) => `
+        <article class="card ${idx === 0 ? 'featured' : ''}">
+          <a class="thumb" href="${esc(item.url || '#')}" target="_blank" rel="noopener" style="background-image:url('${esc(item.image || 'assets/sample-layout.png')}')">
+            <span class="badge">${esc(icon[item.category] || '🏗️')} ${esc(item.category || 'Development')}</span>
+          </a>
+          <div class="card-body">
+            <div class="meta">📍 ${esc(item.location || 'Polk County, FL')} • ${esc(item.date || 'Recent')}</div>
+            <h2>${esc(item.title)}</h2>
+            <p>${esc(item.summary)}</p>
+            <a class="read" href="${esc(item.url || '#')}" target="_blank" rel="noopener">Read More →</a>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function populateCities(items) {
+      const cities = [...new Set(items.map(cityOf))].sort();
+      cityEl.innerHTML = '<option value="all">All cities</option>' + cities.map(c => `<option>${esc(c)}</option>`).join('');
+    }
+
+    async function loadNews() {
+      try {
+        const res = await fetch('data/news.json?cache=' + Date.now());
+        const data = await res.json();
+        allItems = data.items || [];
+        updatedEl.textContent = data.updated_at || 'Unknown';
+        renderStats(allItems);
+        populateCities(allItems);
+        renderCards();
+      } catch (err) {
+        cardsEl.innerHTML = '<p class="empty">News could not be loaded right now.</p>';
+        updatedEl.textContent = 'Unavailable';
+      }
+    }
+
+    [searchEl, categoryEl, cityEl].forEach(el => el.addEventListener('input', renderCards));
+    loadNews();
+    setInterval(loadNews, 15 * 60 * 1000);
+  </script>
+</body>
+</html>

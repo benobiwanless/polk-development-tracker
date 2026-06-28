@@ -1,0 +1,56 @@
+{
+  "updated_at": "Starter data",
+  "items": [
+    {
+      "title": "New Apartment Community Approved in Lakeland",
+      "summary": "City approval moves a new multifamily community forward, adding more housing options near employment and shopping corridors.",
+      "url": "#",
+      "source": "Starter Sample",
+      "date": "Recent",
+      "category": "Housing",
+      "location": "Lakeland, FL",
+      "image": "assets/sample-layout.png"
+    },
+    {
+      "title": "Restaurant Build-Out Moving Forward in Davenport",
+      "summary": "A new restaurant project is progressing through development review, continuing growth along the northeast Polk corridor.",
+      "url": "#",
+      "source": "Starter Sample",
+      "date": "Recent",
+      "category": "Restaurants",
+      "location": "Davenport, FL",
+      "image": "assets/sample-layout.png"
+    },
+    {
+      "title": "Retail Center Plans Submitted in Winter Haven",
+      "summary": "New retail space is planned near growing residential areas, bringing more shopping and service options to local residents.",
+      "url": "#",
+      "source": "Starter Sample",
+      "date": "Recent",
+      "category": "Retail",
+      "location": "Winter Haven, FL",
+      "image": "assets/sample-layout.png"
+    },
+    {
+      "title": "Hotel Project Advances Near Tourist Corridor",
+      "summary": "A hospitality project is advancing in the Four Corners area to support tourism, jobs, and nearby commercial activity.",
+      "url": "#",
+      "source": "Starter Sample",
+      "date": "Recent",
+      "category": "Hotels",
+      "location": "Four Corners, FL",
+      "image": "assets/sample-layout.png"
+    },
+    {
+      "title": "Road Improvements Support Polk Growth",
+      "summary": "Infrastructure improvements continue to support safer travel and access to new housing and business areas across the county.",
+      "url": "#",
+      "source": "Starter Sample",
+      "date": "Recent",
+      "category": "Infrastructure",
+      "location": "Polk County, FL",
+      "image": "assets/sample-layout.png"
+    }
+  ],
+  "errors": []
+}
