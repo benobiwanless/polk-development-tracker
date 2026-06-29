@@ -1,5 +1,7 @@
-# Polk Development Tracker
+Version 6 test build
 
-Static GitHub Pages site for positive development news in Polk County, Florida.
-
-Upload all files in this folder to the repository root.
+Changes:
+- Larger responsive logo/banner.
+- No stats section.
+- Simple placeholder content for testing.
+Replace assets/Logo.png with your uploaded logo.
