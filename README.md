@@ -1,40 +1,32 @@
-# Polk County FL News / Development Tracker — v8
+# Polk County FL News / Development Tracker — v10
 
-This version adds real live story collection.
+## Important
+Upload the entire contents of this ZIP to the root of your repo, including the hidden `.github` folder.
 
-## What changed
-- Live Google News RSS collection, no API key required.
-- Optional NewsAPI.org support with `NEWS_API_KEY`.
-- Optional GNews.io support with `GNEWS_API_KEY`.
-- Searches all Polk County municipalities.
-- Filters for positive development topics only.
-- Blocks crime/crash/death/fire/lawsuit style stories.
-- Updates `data/news.json`.
-- GitHub Action runs every 15 minutes and can also be run manually.
+After upload, GitHub Actions should show:
 
-## Upload
-Upload all files/folders in this ZIP to the root of your GitHub repo.
+`Update Polk County News`
 
-## Run live update now
-Go to:
-
+## Run manually
 Actions → Update Polk County News → Run workflow
 
-Wait about 1–2 minutes, then refresh the website.
+## Auto update
+Runs every 15 minutes with:
 
-## Optional API keys
-Repo → Settings → Secrets and variables → Actions → New repository secret
+`cron: "*/15 * * * *"`
 
-Add either or both:
+## Live source
+Works without an API key using Google News RSS.
 
+Optional secret:
 - `NEWS_API_KEY`
-- `GNEWS_API_KEY`
 
-The site still works without those keys using Google News RSS.
-
-
-## v9
-- Updated to the new Polk County Florida logo.
-- No About page.
-- No Contact page.
-- Keeps live story collection and 15-minute workflow from v8.
+## Files
+- `index.html`
+- `style.css`
+- `app.js`
+- `assets/Logo.png`
+- `data/news.json`
+- `config/sources.json`
+- `scripts/update_news.py`
+- `.github/workflows/update-news.yml`

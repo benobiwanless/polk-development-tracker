@@ -1,45 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Polk Development Tracker</title>
-  <meta name="description" content="Positive development news for Polk County, Florida: housing, restaurants, retail, hotels, infrastructure, and community projects." />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Polk County Florida Development Tracker</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
-    <img src="assets/Logo.png" alt="Polk Development Tracker - Building a Better Polk County" class="hero-logo" />
+    <img src="assets/Logo.png" class="hero-logo" alt="Polk County Florida Development Tracker">
   </header>
 
+  <nav class="top-nav">
+    <a href="#" class="active">Home</a>
+    <a href="#projects">Projects by City</a>
+    <a href="#map">Map</a>
+  </nav>
+
   <main class="page-shell">
-    <section class="toolbar" aria-label="Development filters">
-      <select id="cityFilter" aria-label="Filter by city"><option value="All">All Cities</option></select>
-      <select id="categoryFilter" aria-label="Filter by category"><option value="All">All Categories</option></select>
-      <select id="statusFilter" aria-label="Filter by status"><option value="All">All Statuses</option></select>
-      <input id="searchInput" type="search" placeholder="Search Polk development news..." aria-label="Search news" />
+    <section class="toolbar" aria-label="Filters">
+      <select id="cityFilter"><option value="">All Cities</option></select>
+      <select id="categoryFilter"><option value="">All Categories</option></select>
+      <select id="statusFilter"><option value="">All Statuses</option></select>
+      <select id="sortFilter">
+        <option value="newest">Newest First</option>
+        <option value="city">City A-Z</option>
+        <option value="category">Category A-Z</option>
+      </select>
     </section>
 
-    <section id="featuredSection" class="section">
-      <div class="section-title-row">
-        <h2>Featured Project</h2>
-      </div>
-      <div id="featuredProject" class="featured-card"></div>
+    <section id="featured" class="featured"></section>
+
+    <section class="section-header">
+      <h2>Latest Development Updates</h2>
+      <span id="lastUpdated"></span>
     </section>
 
-    <section class="section">
-      <div class="section-title-row">
-        <h2>Latest Development Updates</h2>
-        <span id="resultCount" class="result-count"></span>
-      </div>
-      <div id="newsGrid" class="news-grid"></div>
-    </section>
+    <section id="newsGrid" class="news-grid"></section>
   </main>
-
-  <footer class="site-footer">
-    <span id="lastUpdated">Last updated: loading...</span>
-    <span>Tracking growth across Polk County</span>
-  </footer>
 
   <script src="app.js"></script>
 </body>

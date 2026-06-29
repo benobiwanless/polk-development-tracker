@@ -1,10 +1,18 @@
 {
-  "last_updated": "Test feed",
+  "last_updated": "Waiting for first GitHub Action run",
+  "feed_mode": "starter",
   "items": [
-    {"title":"Auburndale Point Apartments","city":"Auburndale","category":"Housing","status":"Under Construction","featured":true,"date":"May 16, 2025","summary":"A new apartment community is planned with resort-style amenities and access to growing Central Polk employment centers.","image":"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80","link":"#"},
-    {"title":"Texas Roadhouse Coming to Auburndale","city":"Auburndale","category":"Restaurant","status":"Coming Soon","date":"May 15, 2025","summary":"A new restaurant project is being tracked in Auburndale as part of the county's growing dining scene.","image":"https://images.unsplash.com/photo-1555992336-fb0d29498b13?auto=format&fit=crop&w=1200&q=80","link":"#"},
-    {"title":"Publix at Villamar Commons","city":"Winter Haven","category":"Retail","status":"Approved","date":"May 14, 2025","summary":"Retail growth continues around Winter Haven with new grocery-anchored commercial activity.","image":"https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=1200&q=80","link":"#"},
-    {"title":"Hotel Project in Davenport","city":"Davenport","category":"Hotel","status":"Under Construction","date":"May 13, 2025","summary":"Davenport remains a strong hotel market because of tourism and regional population growth.","image":"https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80","link":"#"},
-    {"title":"US 27 Interchange Improvement Project","city":"Haines City","category":"Infrastructure","status":"Approved","date":"May 12, 2025","summary":"Transportation improvements continue along major growth corridors in northeast Polk County.","image":"https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80","link":"#"}
+    {
+      "title": "Live Polk County development feed ready",
+      "city": "Polk County",
+      "category": "Development",
+      "status": "Update",
+      "date": "Run workflow",
+      "summary": "Upload this v10 package, then go to Actions and run Update Polk County News. The site will replace this starter item with live stories.",
+      "source": "Polk Development Tracker",
+      "image": "",
+      "link": "",
+      "featured": true
+    }
   ]
 }
