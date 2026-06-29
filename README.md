@@ -30,3 +30,10 @@ Optional secret:
 - `config/sources.json`
 - `scripts/update_news.py`
 - `.github/workflows/update-news.yml`
+
+
+## v11
+- Removed the Featured Project section.
+- Homepage now opens directly into Latest Development Updates.
+- News cards are larger on desktop.
+- Live GitHub Action feed remains unchanged.

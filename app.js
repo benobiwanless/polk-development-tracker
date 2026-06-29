@@ -34,24 +34,6 @@ function linkFor(item){
   return item.link ? `<a class="btn" href="${esc(item.link)}" target="_blank" rel="noopener">Read More →</a>` : "";
 }
 
-function renderFeatured(items){
-  const featured = items.find(i => i.featured) || items[0];
-  const el = document.getElementById("featured");
-  if(!featured){ el.innerHTML = ""; return; }
-  el.innerHTML = `
-    <div class="section-header"><h2>Featured Project</h2></div>
-    <article class="featured-card">
-      <img src="${esc(imageFor(featured))}" alt="">
-      <div>
-        <div class="badges">${badge(featured.status || "Update","status")}${badge(featured.category || "Development","category")}</div>
-        <h3>${esc(featured.title)}</h3>
-        <p class="meta">📍 ${esc(featured.city || "Polk County")} • ${esc(featured.date || "")} • ${esc(featured.source || "Live source")}</p>
-        <p class="summary">${esc(featured.summary || "")}</p>
-        ${linkFor(featured)}
-      </div>
-    </article>`;
-}
-
 function renderCards(items){
   const grid = document.getElementById("newsGrid");
   grid.innerHTML = items.map(item => `
@@ -91,7 +73,6 @@ function applyFilters(){
   if(sort === "city") items.sort((a,b)=>(a.city||"").localeCompare(b.city||""));
   if(sort === "category") items.sort((a,b)=>(a.category||"").localeCompare(b.category||""));
 
-  renderFeatured(items);
   renderCards(items);
 }
 
