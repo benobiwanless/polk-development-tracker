@@ -40,3 +40,10 @@ Optional secret:
 
 
 v12: Removed navigation links while preserving the blue navigation bar.
+
+
+## v13
+- Blue bar is now a live rotating ticker from the newest stories.
+- Added better category-based fallback images.
+- Improved mobile spacing and card sizing.
+- Added subtle card hover effect on desktop.
