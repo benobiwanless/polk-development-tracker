@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29 02:05 UTC",
+  "last_updated": "2026-06-29 06:28 UTC",
   "feed_mode": "live-google-news",
   "items": [
     {
@@ -63,18 +63,6 @@
       "featured": false
     },
     {
-      "title": "Davenport restaurant at risk of closing without community support - WQAD",
-      "city": "Davenport",
-      "category": "Restaurant",
-      "status": "Update",
-      "date": "Jun 21, 2026",
-      "summary": "Davenport restaurant at risk of closing without community support WQAD",
-      "source": "WQAD",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNblJ0UVcyaE4xQXVjdUhzUVZzdzVHbUFKN3lwQUVVdE9Rd2UyeDQ4RlVYUnM5SkoxWXp0VDNBYmcxV3QwQXozT2FyemdodGhhRGYwZ0lVdlJSSlFpMWFPUHNrak5NNkQ5aXNHWHFnTklJTkRPYjhGXzVIczMxLUhIVFgtWklRNXB2YlpxWHUzczZmOHF5ZnotTm5wTlozTUtUYkRVWnJsVV85NllTakpwQkpoaG5OWlpoblNVWGR3NUUyT1RzYXgwaUVILUhxOEdSMnBNUDN5dE5la25ibjI4czln?oc=5",
-      "featured": false
-    },
-    {
       "title": "The Davenport Grand’s new lobby-level restaurant Lilac & Pine showcases regional flavors - inlander.com",
       "city": "Davenport",
       "category": "Restaurant",
@@ -84,6 +72,18 @@
       "source": "inlander.com",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNYkM0S1NtSURlV1NXM1FuRzdnWWxOcmZiS2l3eFhvZzVHRnBXOVRwOFRqVDhobnc2Y05fb0pqS2NWU0VWNm8ydTBIVzJxdERmM1pFUklkQWo3Q2hCc0lEYTFvc0daWkdRblZrR2hQS2thd240c19ybHpEbEVvd1MtZ21PR2FLbmVGaDRxZU93Z2NaYzdLMlJGS2NxRXB1dU9JYm5qUjZKVzJ1WjB4eXJXZmlKWjl4TFlWWkR3WmN6WDNWT3Jtd1p3ckc2Ul94VGxmRm14S19KS3NhdUd3MHZ1c2xINlJLS3VRNWMxSHNiWENPamc5VFZzVEpn?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Davenport restaurant at risk of closing without community support - WQAD",
+      "city": "Davenport",
+      "category": "Restaurant",
+      "status": "Update",
+      "date": "Jun 20, 2026",
+      "summary": "Davenport restaurant at risk of closing without community support WQAD",
+      "source": "WQAD",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNblJ0UVcyaE4xQXVjdUhzUVZzdzVHbUFKN3lwQUVVdE9Rd2UyeDQ4RlVYUnM5SkoxWXp0VDNBYmcxV3QwQXozT2FyemdodGhhRGYwZ0lVdlJSSlFpMWFPUHNrak5NNkQ5aXNHWHFnTklJTkRPYjhGXzVIczMxLUhIVFgtWklRNXB2YlpxWHUzczZmOHF5ZnotTm5wTlozTUtUYkRVWnJsVV85NllTakpwQkpoaG5OWlpoblNVWGR3NUUyT1RzYXgwaUVILUhxOEdSMnBNUDN5dE5la25ibjI4czln?oc=5",
       "featured": false
     },
     {
@@ -363,6 +363,18 @@
       "featured": false
     },
     {
+      "title": "Construction Begins on Orlando Health’s Seven-Story Lakeland Highlands Hospital - LkldNow",
+      "city": "Lakeland",
+      "category": "Development",
+      "status": "Under Construction",
+      "date": "Jul 21, 2023",
+      "summary": "Construction Begins on Orlando Health’s Seven-Story Lakeland Highlands Hospital LkldNow",
+      "source": "LkldNow",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZUY2Xy13UTZ1UEdaZ21ZaUNYT1otalJkdkllRDBkeWJMaHYwUTZrLW5jZVk5OEZJbjFSdTVjRlJLbmVVOW15LWtvRUJVZ3FtOHdnVE5LWWtGTU00NWRaTmdiekhoZkdFM0pMckdieVBlbHEwOWJnaWF6VXhTM3pSNk91N0RQdkJNeGo2c2sxUzRfRGEwU1B6ZHFRWlVqd0hod1lzSlNR?oc=5",
+      "featured": false
+    },
+    {
       "title": "What Will Lakeland Hills Boulevard Look Like After 22 Months of Construction? - LkldNow",
       "city": "Lakeland",
       "category": "Development",
@@ -384,18 +396,6 @@
       "source": "LkldNow",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16QjBxWE5Kc1oyYjUzYm00ZVpCNmhDWTdRaDR5dDNmRDRHRHZSeWlQNjdQREpRcXJXMXZyUjJKWVIwMktkd2dZUHIwTnAyazFNbzh0Q3hWSU8xREVpSHJ4TjFlTzh4LWVjQldKTlQyUnozYmxtZUlj?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Construction Begins on Orlando Health’s Seven-Story Lakeland Highlands Hospital - LkldNow",
-      "city": "Lakeland",
-      "category": "Development",
-      "status": "Under Construction",
-      "date": "Jul 21, 2023",
-      "summary": "Construction Begins on Orlando Health’s Seven-Story Lakeland Highlands Hospital LkldNow",
-      "source": "LkldNow",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZUY2Xy13UTZ1UEdaZ21ZaUNYT1otalJkdkllRDBkeWJMaHYwUTZrLW5jZVk5OEZJbjFSdTVjRlJLbmVVOW15LWtvRUJVZ3FtOHdnVE5LWWtGTU00NWRaTmdiekhoZkdFM0pMckdieVBlbHEwOWJnaWF6VXhTM3pSNk91N0RQdkJNeGo2c2sxUzRfRGEwU1B6ZHFRWlVqd0hod1lzSlNR?oc=5",
       "featured": false
     },
     {
