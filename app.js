@@ -9,29 +9,18 @@ const categories = ["Housing","Restaurant","Retail","Hotel","Infrastructure","Co
 const statuses = ["Approved","Coming Soon","Under Construction","Grand Opening","Update"];
 
 function categoryPlaceholder(category="Development"){
-  const labels = {
-    Housing:"Housing Development",
-    Restaurant:"Restaurant Opening",
-    Retail:"Retail Project",
-    Hotel:"Hotel Development",
-    Infrastructure:"Infrastructure Update",
-    Commercial:"Commercial Project",
-    Community:"Community Project",
-    Development:"Polk Development"
+  const map = {
+    Housing:"assets/category/housing.svg",
+    Restaurant:"assets/category/restaurant.svg",
+    Retail:"assets/category/retail.svg",
+    Hotel:"assets/category/hotel.svg",
+    Infrastructure:"assets/category/infrastructure.svg",
+    Commercial:"assets/category/commercial.svg",
+    Community:"assets/category/community.svg",
+    Development:"assets/category/development.svg"
   };
-  const title = labels[category] || labels.Development;
-  const svg = `<svg xmlns='http://www.w3.org/2000/svg' width='900' height='520'>
-  <defs><linearGradient id='g' x1='0' x2='1'><stop stop-color='#d8ecff'/><stop offset='1' stop-color='#f3fbff'/></linearGradient></defs>
-  <rect width='100%' height='100%' fill='url(#g)'/>
-  <circle cx='120' cy='105' r='62' fill='#8ee26f' opacity='.75'/>
-  <rect x='0' y='380' width='900' height='140' fill='#c7e7fb'/>
-  <path d='M0 420 C160 360 260 455 420 395 C590 330 690 430 900 360 L900 520 L0 520 Z' fill='#0c4e93' opacity='.22'/>
-  <text x='50%' y='46%' text-anchor='middle' font-family='Arial' font-size='36' fill='#061b3a' font-weight='800'>${title}</text>
-  <text x='50%' y='57%' text-anchor='middle' font-family='Arial' font-size='20' fill='#3c526d' font-weight='700'>Polk County Florida</text>
-  </svg>`;
-  return "data:image/svg+xml;utf8," + encodeURIComponent(svg);
+  return map[category] || map.Development;
 }
-
 let allItems = [];
 
 function esc(str=""){

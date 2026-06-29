@@ -47,3 +47,11 @@ v12: Removed navigation links while preserving the blue navigation bar.
 - Added better category-based fallback images.
 - Improved mobile spacing and card sizing.
 - Added subtle card hover effect on desktop.
+
+
+## v14
+- Adds local category image files so cards always have images.
+- Expands Google News searches for more stories.
+- Increases feed output up to 90 items.
+- Adds optional GNEWS_API_KEY support.
+- Adds more development keywords: zoning, site plan, agenda, ribbon cutting, mixed-use, distribution center, etc.
