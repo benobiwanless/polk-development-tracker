@@ -1,60 +1,10 @@
-const fallbackImage = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80';
-
-function badgeClass(category='development'){
-  return category.toLowerCase().replace(/\s+/g,'-');
-}
-function formatDate(value){
-  if(!value) return '';
-  const date = new Date(value);
-  if(Number.isNaN(date.getTime())) return value;
-  return date.toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
-}
-function badge(label, extra=''){
-  return `<span class="badge ${extra || badgeClass(label)}">${label}</span>`;
-}
-function renderFeatured(item){
-  const el = document.getElementById('featuredProject');
-  el.innerHTML = `
-    <img src="${item.image || fallbackImage}" alt="${item.title}">
-    <div class="featured-body">
-      <div class="badges">${badge(item.category)}${item.status ? badge(item.status,'status') : ''}</div>
-      <h3>${item.title}</h3>
-      <div class="meta">📍 ${item.city || 'Polk County'}, FL</div>
-      <p>${item.summary || ''}</p>
-      <div class="details-row">
-        <span>🗓 ${formatDate(item.date)}</span>
-        ${item.units ? `<span>🏢 ${item.units}</span>` : ''}
-        <a class="button" href="${item.url || '#'}" target="_blank" rel="noopener">View Details →</a>
-      </div>
-    </div>`;
-}
-function renderCards(items){
-  const grid = document.getElementById('newsGrid');
-  grid.innerHTML = items.map(item => `
-    <article class="news-card">
-      <div class="news-image-wrap">
-        <img src="${item.image || fallbackImage}" alt="${item.title}">
-        ${badge(item.category)}
-      </div>
-      <div class="news-body">
-        <h3>${item.title}</h3>
-        <div class="meta">📍 ${item.city || 'Polk County'}, FL</div>
-        <p>${item.summary || ''}</p>
-        <div class="card-footer"><span>${formatDate(item.date)}</span><a href="${item.url || '#'}" target="_blank" rel="noopener">Read More →</a></div>
-      </div>
-    </article>`).join('');
-}
-async function init(){
-  try{
-    const res = await fetch('data/news.json', {cache:'no-store'});
-    const data = await res.json();
-    const items = data.items || [];
-    renderFeatured(data.featured || items[0]);
-    renderCards(items.filter(i => !i.featured).slice(0,12));
-    document.getElementById('lastUpdated').textContent = data.updated ? `Last updated ${formatDate(data.updated)}` : '';
-  }catch(err){
-    console.error(err);
-    document.getElementById('newsGrid').innerHTML = '<p>News feed loading.</p>';
-  }
-}
+const CITIES = ["Auburndale","Bartow","Davenport","Dundee","Eagle Lake","Fort Meade","Frostproof","Haines City","Highland Park","Hillcrest Heights","Lake Alfred","Lake Hamilton","Lakeland","Lake Wales","Mulberry","Polk City","Winter Haven","Unincorporated"];
+let allItems = [];
+const placeholder = "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80";
+function esc(s){return String(s||"").replace(/[&<>'"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[c]));}
+function optionize(id, values){const el=document.getElementById(id); values.forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o);});}
+function card(item, featured=false){const img=item.image||placeholder; const badges=`<div class="badge-row"><span class="badge ${esc(item.category)}">${esc(item.category||'Development')}</span><span class="badge status">${esc(item.status||'Update')}</span></div>`; const link=item.link?`<a class="${featured?'button':'read-more'}" href="${esc(item.link)}" target="_blank" rel="noopener">Read More →</a>`:''; if(featured){return `<img src="${esc(img)}" alt=""><div class="featured-body">${badges}<h3>${esc(item.title)}</h3><p class="meta">📍 ${esc(item.city)} • ${esc(item.date||'')}</p><p class="summary">${esc(item.summary)}</p>${link}</div>`} return `<article class="news-card"><img src="${esc(img)}" alt=""><div class="news-body">${badges}<h3>${esc(item.title)}</h3><p class="meta">📍 ${esc(item.city)} • ${esc(item.date||'')}</p><p class="summary">${esc(item.summary)}</p>${link}</div></article>`}
+function filterItems(){const city=document.getElementById('cityFilter').value, cat=document.getElementById('categoryFilter').value, status=document.getElementById('statusFilter').value, q=document.getElementById('searchInput').value.toLowerCase(); return allItems.filter(i=>(city==='All'||i.city===city)&&(cat==='All'||i.category===cat)&&(status==='All'||i.status===status)&&(!q||[i.title,i.city,i.category,i.status,i.summary].join(' ').toLowerCase().includes(q)));}
+function render(){const items=filterItems();document.getElementById('resultCount').textContent=`${items.length} updates`; const featured=items.find(i=>i.featured)||items[0]; document.getElementById('featuredProject').innerHTML=featured?card(featured,true):'<div class="empty">No matching featured project.</div>'; document.getElementById('newsGrid').innerHTML=items.length?items.map(i=>card(i)).join(''):'<div class="empty">No matching updates yet.</div>';}
+async function init(){optionize('cityFilter',CITIES); const cats=["Housing","Restaurant","Retail","Hotel","Commercial","Infrastructure","Community","Development"]; optionize('categoryFilter',cats); optionize('statusFilter',["Planned","Approved","Under Construction","Coming Soon","Grand Opening","Completed","Update"]); try{const res=await fetch('data/news.json?ts='+Date.now()); const data=await res.json(); allItems=data.items||[]; document.getElementById('lastUpdated').textContent='Last updated: '+(data.last_updated||'unknown');}catch(e){allItems=[]; document.getElementById('lastUpdated').textContent='Last updated: unable to load feed';} ['cityFilter','categoryFilter','statusFilter','searchInput'].forEach(id=>document.getElementById(id).addEventListener('input',render)); render();}
 init();

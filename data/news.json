@@ -1,23 +1,10 @@
 {
-  "updated": "2025-05-16T09:15:00-04:00",
-  "featured": {
-    "featured": true,
-    "category": "Housing",
-    "status": "Just Announced",
-    "title": "Auburndale Point Apartments",
-    "city": "Auburndale",
-    "date": "2025-05-16",
-    "units": "240 Units",
-    "summary": "A new apartment community is planned with resort-style amenities, clubhouse space, fitness center, and lake-view design elements.",
-    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1400&q=80",
-    "url": "#"
-  },
+  "last_updated": "Test feed",
   "items": [
-    {"category":"Restaurant","title":"First Watch Coming to Lakeland","city":"Lakeland","date":"2025-05-15","summary":"A new breakfast and brunch restaurant is planned for a growing commercial corridor.","image":"https://images.unsplash.com/photo-1555992336-03a23c7b20ee?auto=format&fit=crop&w=1000&q=80","url":"#"},
-    {"category":"Retail","title":"Publix at Villamar Commons","city":"Winter Haven","date":"2025-05-14","summary":"A new neighborhood retail center is moving forward with grocery and supporting shops.","image":"https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=1000&q=80","url":"#"},
-    {"category":"Hotel","title":"Hampton Inn & Suites Davenport","city":"Davenport","date":"2025-05-13","summary":"A hotel project is planned near major travel and tourism corridors.","image":"https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80","url":"#"},
-    {"category":"Infrastructure","title":"US 27 Interchange Improvement Project","city":"Haines City","date":"2025-05-12","summary":"Road and interchange improvements are planned to support continued countywide growth.","image":"https://images.unsplash.com/photo-1545459720-aac8509eb02c?auto=format&fit=crop&w=1000&q=80","url":"#"},
-    {"category":"Housing","title":"New Homes Coming to Bella Lago","city":"Lakeland","date":"2025-05-11","summary":"Additional single-family homes are planned for a growing residential community.","image":"https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1000&q=80","url":"#"},
-    {"category":"Community","title":"New Park Planned for North Lakeland","city":"Lakeland","date":"2025-05-10","summary":"A new public park project is expected to add recreation space and family amenities.","image":"https://images.unsplash.com/photo-1519331379826-f10be5486c6f?auto=format&fit=crop&w=1000&q=80","url":"#"}
+    {"title":"Auburndale Point Apartments","city":"Auburndale","category":"Housing","status":"Under Construction","featured":true,"date":"May 16, 2025","summary":"A new apartment community is planned with resort-style amenities and access to growing Central Polk employment centers.","image":"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80","link":"#"},
+    {"title":"Texas Roadhouse Coming to Auburndale","city":"Auburndale","category":"Restaurant","status":"Coming Soon","date":"May 15, 2025","summary":"A new restaurant project is being tracked in Auburndale as part of the county's growing dining scene.","image":"https://images.unsplash.com/photo-1555992336-fb0d29498b13?auto=format&fit=crop&w=1200&q=80","link":"#"},
+    {"title":"Publix at Villamar Commons","city":"Winter Haven","category":"Retail","status":"Approved","date":"May 14, 2025","summary":"Retail growth continues around Winter Haven with new grocery-anchored commercial activity.","image":"https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=1200&q=80","link":"#"},
+    {"title":"Hotel Project in Davenport","city":"Davenport","category":"Hotel","status":"Under Construction","date":"May 13, 2025","summary":"Davenport remains a strong hotel market because of tourism and regional population growth.","image":"https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80","link":"#"},
+    {"title":"US 27 Interchange Improvement Project","city":"Haines City","category":"Infrastructure","status":"Approved","date":"May 12, 2025","summary":"Transportation improvements continue along major growth corridors in northeast Polk County.","image":"https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1200&q=80","link":"#"}
   ]
 }

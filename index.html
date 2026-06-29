@@ -1,22 +1,46 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="style.css">
-<title>Polk Development Tracker</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Polk Development Tracker</title>
+  <meta name="description" content="Positive development news for Polk County, Florida: housing, restaurants, retail, hotels, infrastructure, and community projects." />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="hero">
-  <img class="banner" src="assets/Logo.png" alt="Polk Development Tracker">
-</header>
+  <header class="hero">
+    <img src="assets/Logo.png" alt="Polk Development Tracker - Building a Better Polk County" class="hero-logo" />
+  </header>
 
-<main class="content">
-<h2>Featured Project</h2>
-<div class="card">
-<h3>Coming in Version 6</h3>
-<p>Live permit and development feed will appear here.</p>
-</div>
-</main>
+  <main class="page-shell">
+    <section class="toolbar" aria-label="Development filters">
+      <select id="cityFilter" aria-label="Filter by city"><option value="All">All Cities</option></select>
+      <select id="categoryFilter" aria-label="Filter by category"><option value="All">All Categories</option></select>
+      <select id="statusFilter" aria-label="Filter by status"><option value="All">All Statuses</option></select>
+      <input id="searchInput" type="search" placeholder="Search Polk development news..." aria-label="Search news" />
+    </section>
+
+    <section id="featuredSection" class="section">
+      <div class="section-title-row">
+        <h2>Featured Project</h2>
+      </div>
+      <div id="featuredProject" class="featured-card"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-title-row">
+        <h2>Latest Development Updates</h2>
+        <span id="resultCount" class="result-count"></span>
+      </div>
+      <div id="newsGrid" class="news-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span id="lastUpdated">Last updated: loading...</span>
+    <span>Tracking growth across Polk County</span>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
