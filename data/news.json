@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30 05:54 UTC",
+  "last_updated": "2026-06-30 08:56 UTC",
   "feed_mode": "live-expanded",
   "items": [
     {
@@ -111,15 +111,15 @@
       "featured": false
     },
     {
-      "title": "Beloved Davenport Restaurant Lunardi’s to Close After 37 Years of Family Ownership - Voice of Muscatine",
+      "title": "Scott County Road F-55 at U.S. 61 in Davenport Will Be Closed in Both Directions Starting on Monday, March 2 - Iowa Department of Transportation (.gov)",
       "city": "Davenport",
-      "category": "Restaurant",
+      "category": "Infrastructure",
       "status": "Update",
-      "date": "Jun 12, 2026",
-      "summary": "Beloved Davenport Restaurant Lunardi’s to Close After 37 Years of Family Ownership Voice of Muscatine",
-      "source": "Voice of Muscatine",
+      "date": "Feb 24, 2026",
+      "summary": "Scott County Road F-55 at U.S. 61 in Davenport Will Be Closed in Both Directions Starting on Monday, March 2 Iowa Department of Transportation (.gov)",
+      "source": "Iowa Department of Transportation (.gov)",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUmpoWS1OSTNZMDE0aUw4MlUyS3pMcGRmVkd3QnQwbGd2UVlRQTJDVkg5bU9weGxXdmNJbHJHU3ZlLWxFUU1md0I0U1RwbGdLVURTSE5HcmlKa19nMVRoNEZQM04yYjJFT1Q4T2tqQ1dUQzJRUTUtQi1tVmpEak1Fa1U4RmtaYmRkODRlM3l4Ri10dFc3TEUxY29ZZ2xIa01IT2tnTW5VWGdxNWNUM3VmSkZvQlZ2SV9FMEdhQUVQUEE5ZnJfMVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeTBWVmdpamN5bUY3aWI0X3I3MnEyUi1taDgxV3dsMDJlZXJDcEduQUhvUXpzaFNlOWU0aGxqanlhZ25JTmdWLTdVWDRaaVJhb0lLdVBHbFZJUjFjU1Q4d3hsNE5nUndaUUU0dFVoVjVzUXA2a05pdklyUUxKajZXRUFpOXk4YzZPdXJDZ3ZMX3pqV0xfelJCTzFGcFdjZDllUnFIOEo3M3FXVHBFdlFOb2J2cmdxMUc2SUtfLVFlSHVUMm1fOVhVZg?oc=5",
       "featured": false
     },
     {
@@ -195,6 +195,42 @@
       "featured": false
     },
     {
+      "title": "Jay Davenport, VCU vice president for development and alumni relations since 2017, to take same post at Penn State - VCU News",
+      "city": "Davenport",
+      "category": "Development",
+      "status": "Update",
+      "date": "Jan 09, 2026",
+      "summary": "Jay Davenport, VCU vice president for development and alumni relations since 2017, to take same post at Penn State VCU News",
+      "source": "VCU News",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObGdCT0FPd1lyN0JKTThoRVBnZTNlZUlFaXItckt5NEJ3Tnhma195UGc5YnJFaGo4ODBGLVZuWi02YV9melVYN0Q1Y1VmRlc4SFF0ZmVraUs1UnM1RUV1MGROWUs2U0MxVzlEdWx4TE9vdWtteFpkelV2VUo0ZUpaSjVTQVJadE1kcjRwOHJlSHcxYzVuQzJDRDdqVkFrVzQwNFc2NW4yaktReFQ1N0RGMkhmNlBYNVRLdzRpZHhndWI3d2M?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Lake Wales to transform decades-old public housing complex into af­fordable housing - Spectrum Bay News 9",
+      "city": "Lake Wales",
+      "category": "Housing",
+      "status": "Update",
+      "date": "May 04, 2026",
+      "summary": "Lake Wales to transform decades-old public housing complex into af­fordable housing Spectrum Bay News 9",
+      "source": "Spectrum Bay News 9",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUXRJTjJXdGNHMFVyTFpibFU4VDhLcE9tS1o4ekhiVEJqNHlPNUhvSng4UDVJNFp5TWZWRjV1cmJRNWVkUWJxdVBHWll5NjF3Y3VMQlRjeUNqdzNBRW1pY19DWVJZTWVUNk84MkM5SW1oeVhOd0FUT2xZcXdnOEw5UmlLWnZURG9KeGUzUFZXako?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Beloved Davenport Restaurant Lunardi’s to Close After 37 Years of Family Ownership - Voice of Muscatine",
+      "city": "Davenport",
+      "category": "Restaurant",
+      "status": "Update",
+      "date": "Jun 12, 2026",
+      "summary": "Beloved Davenport Restaurant Lunardi’s to Close After 37 Years of Family Ownership Voice of Muscatine",
+      "source": "Voice of Muscatine",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUmpoWS1OSTNZMDE0aUw4MlUyS3pMcGRmVkd3QnQwbGd2UVlRQTJDVkg5bU9weGxXdmNJbHJHU3ZlLWxFUU1md0I0U1RwbGdLVURTSE5HcmlKa19nMVRoNEZQM04yYjJFT1Q4T2tqQ1dUQzJRUTUtQi1tVmpEak1Fa1U4RmtaYmRkODRlM3l4Ri10dFc3TEUxY29ZZ2xIa01IT2tnTW5VWGdxNWNUM3VmSkZvQlZ2SV9FMEdhQUVQUEE5ZnJfMVE?oc=5",
+      "featured": false
+    },
+    {
       "title": "This day in history: Ronald Reagan addressed GOP convention in Spokane. Belgian police dog fled Davenport Hotel - The Spokesman-Review",
       "city": "Davenport",
       "category": "Hotel",
@@ -207,51 +243,15 @@
       "featured": false
     },
     {
-      "title": "Inflation drives Davenport Mexican restaurant to raise Taco Tuesday deal prices - WQAD",
-      "city": "Davenport",
-      "category": "Restaurant",
-      "status": "Update",
-      "date": "Jun 17, 2026",
-      "summary": "Inflation drives Davenport Mexican restaurant to raise Taco Tuesday deal prices WQAD",
-      "source": "WQAD",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPdm8wbXA3RFJaeVkyNnZwN1ZPVDhwRjI0S1lERlQxN3hsWF9UU1BPeV93b2NzRDJiOHB0Zm9uMHVERThTMnNoVU9VNDgwWXhGVlpTT3F6TkZTaEwxM1lpbW96MHJhd1hpV3Z1ZExhNXVsTEVZMWVCdWVxbVRsSWk0RnY5X2RqRmJadEZaSHZaZDk0VGJMcGVUdERiS0FyMjcySGUwbTg3N3Z6SlBmMXVWSjhubTc4Q2VEUGtwekRIWDJ1QW51T3ZLeTRVanRZdmtlNDkzR0JGTEJlOHVpMFY4ZWFEMDk1ZWtaTkdJUmF3OA?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Lake Wales approves design contract with developer for $43M restoration of historic Walesbilt Hotel - GrowthSpotter",
-      "city": "Lake Wales",
-      "category": "Hotel",
-      "status": "Update",
-      "date": "Jun 15, 2026",
-      "summary": "Lake Wales approves design contract with developer for $43M restoration of historic Walesbilt Hotel GrowthSpotter",
-      "source": "GrowthSpotter",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNk0yS2k1ZXlSZ2drb0tGQ1hNcVRFM2U4bUVMMWdWQ0pnOUZOT0dBYk40Nmg4WVUzRlVMajNObVpHTUptSTRySzVydkVGanRxYVBHZjVqM0E3Zm5uVGlfakt6ejJYcmlzRG5TdHhJU09pMnQzRmNTOGJnNG01UjRkQmxaYTE3NXRJeHRFTXpNbmhaV1ZUa2FRWVNBakxxY3J3T1ZfUG9CVlZBUjZReldHeV9xVm9aT0hwamkzcTVzS3FLdGExc3d1bE41c1RkLTFBZWJhcHVzYw?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Longtime Italian restaurant closing this weekend in Davenport - WQAD",
-      "city": "Davenport",
-      "category": "Restaurant",
-      "status": "Update",
-      "date": "Jun 12, 2026",
-      "summary": "Longtime Italian restaurant closing this weekend in Davenport WQAD",
-      "source": "WQAD",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMzlqVUhPX1BrMUhxY1NaUG8zeFZlbmdIRmIxZWxxSXJXSVlGcTRCM0x4anJ5SG45S3RoYkVLWEEtWkxxQm0zQlUxWi1qLXEteUZzNnR4bkxlREE3QnZraXlfQzV1RVgxTjdSNU5heVZtVm9FRk9vV2FUZUliWVE5b3JFSFdXZl9PSjRLcHBJYjZzX3Z4YkdfZ2IzT25JUFJBdVdBZkxpd1lDN2NFcXFfWmNEWWlPd2dnbEJBTUZKLTJuMUNWN1cxR1U1Q00zMTRreVNVMk9YcldzN2xhdXJkRkdudXA?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Construction begins to replace Lake Wales' Grove Manor with affordable housing - Tampa Bay 28",
-      "city": "Lake Wales",
-      "category": "Housing",
-      "status": "Under Construction",
+      "title": "At a glance: Polk County School Board approves minutes, policies, appointments, code of conduct and rezoning - citizenportal.ai",
+      "city": "Polk County",
+      "category": "Community",
+      "status": "Coming Soon",
       "date": "Jun 08, 2026",
-      "summary": "Construction begins to replace Lake Wales' Grove Manor with affordable housing Tampa Bay 28",
-      "source": "Tampa Bay 28",
+      "summary": "At a glance: Polk County School Board approves minutes, policies, appointments, code of conduct and rezoning citizenportal.ai",
+      "source": "citizenportal.ai",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVRwVmJBWndnNEhfcmwzanVCYzBFVHctYkgxdjNGcUNodUxTR3FwZG9weV94dzItcHMwYVZ6WVA4YzhPQ1lUVXRicmJYMVk5dHBqRWJiZG5HOWUwcmljTk1aWXMwVFEyNG5FOFBFXzlSeFQ1MFR3SHJKRHotZVFubXNydGdSQnBMeS1fUllzU2tJa3IyaVRjNVpsa2NFQWhQRnhQbm9UQWdITXFlMEJsSmZhU1ZvTDVwVWJkWlVHSTFxbzItbXZCOHdVcEhMUHJKNklHMDVBdjE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQUTRxTm5hbC12MUxFZGFPdlAzZkVEcGZMalFValRYQW9XaTZpNFBuQ3ZDR1ZXNHM1cG55eEJMMjNlcVoyeVhHR1ZUWlprSUFfMTBRWGwwNTZmUFhzYUxYUVNEaHMxempUS25oekJSWV9rWjJONTlyaDcyV3I3RG43cG5QczRHdmxZclVXaVNmbVY3VUdVRzhJZXMyelBubDI0U3g3bkpUR2dGRGxaYmRoVVJrTVZwSmxUNl94TGg1Xzh6RlVEV2RoS2VHbnAxQU84RnVqSE9YQWtJd1hiTTJLRVJoSEFnYWQxdHdCbzlUcE80dzV6SjdvbHRQR3VDUVpUZkNfbEI2Yw?oc=5",
       "featured": false
     },
     {
@@ -291,27 +291,15 @@
       "featured": false
     },
     {
-      "title": "At a glance: Polk County School Board approves minutes, policies, appointments, code of conduct and rezoning - citizenportal.ai",
-      "city": "Polk County",
-      "category": "Community",
-      "status": "Coming Soon",
-      "date": "Jun 08, 2026",
-      "summary": "At a glance: Polk County School Board approves minutes, policies, appointments, code of conduct and rezoning citizenportal.ai",
-      "source": "citizenportal.ai",
+      "title": "Development eyed for 52 acres near Polk City’s Green Swamp - Tampa Bay Business & Wealth",
+      "city": "Polk City",
+      "category": "Development",
+      "status": "Update",
+      "date": "May 19, 2026",
+      "summary": "Development eyed for 52 acres near Polk City’s Green Swamp Tampa Bay Business & Wealth",
+      "source": "Tampa Bay Business & Wealth",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQUTRxTm5hbC12MUxFZGFPdlAzZkVEcGZMalFValRYQW9XaTZpNFBuQ3ZDR1ZXNHM1cG55eEJMMjNlcVoyeVhHR1ZUWlprSUFfMTBRWGwwNTZmUFhzYUxYUVNEaHMxempUS25oekJSWV9rWjJONTlyaDcyV3I3RG43cG5QczRHdmxZclVXaVNmbVY3VUdVRzhJZXMyelBubDI0U3g3bkpUR2dGRGxaYmRoVVJrTVZwSmxUNl94TGg1Xzh6RlVEV2RoS2VHbnAxQU84RnVqSE9YQWtJd1hiTTJLRVJoSEFnYWQxdHdCbzlUcE80dzV6SjdvbHRQR3VDUVpUZkNfbEI2Yw?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Polk County Public Schools begin planning for new high school rezoning - wtsp.com",
-      "city": "Polk County",
-      "category": "Community",
-      "status": "Coming Soon",
-      "date": "Aug 12, 2025",
-      "summary": "Polk County Public Schools begin planning for new high school rezoning wtsp.com",
-      "source": "wtsp.com",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdU5DWTNkVXVxR2s1ZTc4ZW1TRUE1ZDhqZHZxSWlGOFpOYUNzc0tSWENXbWZCb3ktVHZjSVZ3S0RsRld4TUhIdV90ZmFPQkxDUWZvNnlsR1pDUTBOYXFfNllSZWRBUnFNQ0c1RXpLX2YtdDRpaGszNjZQRUJseGQtWlpPU2VhUTRlZFhpNFRVTnhhWk9wTm0xR2diSi1WSWoySHJYQ2pFMzl6TE5yWDN6Q3dNM3dod2FrSjFiY3lKR1Y5TjZuR3J5OG9wUWxLZ09tekpQMXJ1aGhNcjQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5icmc0TVBTMVFNUDN2QjJ2UTByemFQWWdvbkNVYV9laGRlX1piNVl6Umhxcmo2aGxPN3hISk5IdDBoek9JMmlrazF1QjJwUDBpNnhaYlR0MUN5ckFKZ3ZmNENDbG80UzZ6NlFnZkV6V1VCOUk?oc=5",
       "featured": false
     },
     {
@@ -327,39 +315,15 @@
       "featured": false
     },
     {
-      "title": "Polk County high school rezoning plan: See all the current and proposed zones - Lakeland Ledger",
-      "city": "Lakeland",
-      "category": "Community",
-      "status": "Coming Soon",
-      "date": "Aug 20, 2025",
-      "summary": "Polk County high school rezoning plan: See all the current and proposed zones Lakeland Ledger",
-      "source": "Lakeland Ledger",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQWx2ZHNGVFI3eWxGMC1iaDFiUDR1VmNjdXNBU2tIQTBaNDBrU2pDa1g1cmpOZklMSDNSb2RnSGdWTS1Lc19HcktNWjVTNFl0QW8taHBNRTFac2dWOUlmaEY2MlZhSUFQbWRHa2hEalU3bE1fMko2S0lDcTBveVhLUkgyV3pULTVMdVhoMHBVRTB3VE9lVFRWV3RGUUpwQmoxQ2tLNVFKRThieG1yV2R6MW5ZYTViYkVTay1OYzktTkRGUDNFS21GekI1c3oyQjVmQkpta2hNcWdOeXRJcEE?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Development eyed for 52 acres near Polk City’s Green Swamp - Tampa Bay Business & Wealth",
-      "city": "Polk City",
-      "category": "Development",
-      "status": "Update",
-      "date": "May 19, 2026",
-      "summary": "Development eyed for 52 acres near Polk City’s Green Swamp Tampa Bay Business & Wealth",
-      "source": "Tampa Bay Business & Wealth",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5icmc0TVBTMVFNUDN2QjJ2UTByemFQWWdvbkNVYV9laGRlX1piNVl6Umhxcmo2aGxPN3hISk5IdDBoek9JMmlrazF1QjJwUDBpNnhaYlR0MUN5ckFKZ3ZmNENDbG80UzZ6NlFnZkV6V1VCOUk?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Polk County Schools is looking at high school rezoning options - Tampa Bay 28",
+      "title": "Polk County Public Schools begin planning for new high school rezoning - wtsp.com",
       "city": "Polk County",
       "category": "Community",
       "status": "Coming Soon",
-      "date": "Aug 04, 2025",
-      "summary": "Polk County Schools is looking at high school rezoning options Tampa Bay 28",
-      "source": "Tampa Bay 28",
+      "date": "Aug 12, 2025",
+      "summary": "Polk County Public Schools begin planning for new high school rezoning wtsp.com",
+      "source": "wtsp.com",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVW9Za05yX19aVFZWR3ItQ2xHM3ZRRHhLZ1kyQ0V4ZjI0a0VxVXExcEFCMVg3aWNzMmNTSzAtV0tTSDUwUmI3M3pPODVScVdpbkxETFJlMVZCbGUwRWxSLU5Qa1lNRktYZE1hY2FUekY3QnFRQW1rd0ZRNVc4X3BPdUVyVm5zaDdBbHdQc1Vrd2VTUWs4d3B2TWd3dG5IOHJud1MzR3Zuel95QQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdU5DWTNkVXVxR2s1ZTc4ZW1TRUE1ZDhqZHZxSWlGOFpOYUNzc0tSWENXbWZCb3ktVHZjSVZ3S0RsRld4TUhIdV90ZmFPQkxDUWZvNnlsR1pDUTBOYXFfNllSZWRBUnFNQ0c1RXpLX2YtdDRpaGszNjZQRUJseGQtWlpPU2VhUTRlZFhpNFRVTnhhWk9wTm0xR2diSi1WSWoySHJYQ2pFMzl6TE5yWDN6Q3dNM3dod2FrSjFiY3lKR1Y5TjZuR3J5OG9wUWxLZ09tekpQMXJ1aGhNcjQ?oc=5",
       "featured": false
     },
     {
@@ -387,6 +351,18 @@
       "featured": false
     },
     {
+      "title": "Polk County high school rezoning plan: See all the current and proposed zones - Lakeland Ledger",
+      "city": "Lakeland",
+      "category": "Community",
+      "status": "Coming Soon",
+      "date": "Aug 20, 2025",
+      "summary": "Polk County high school rezoning plan: See all the current and proposed zones Lakeland Ledger",
+      "source": "Lakeland Ledger",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQWx2ZHNGVFI3eWxGMC1iaDFiUDR1VmNjdXNBU2tIQTBaNDBrU2pDa1g1cmpOZklMSDNSb2RnSGdWTS1Lc19HcktNWjVTNFl0QW8taHBNRTFac2dWOUlmaEY2MlZhSUFQbWRHa2hEalU3bE1fMko2S0lDcTBveVhLUkgyV3pULTVMdVhoMHBVRTB3VE9lVFRWV3RGUUpwQmoxQ2tLNVFKRThieG1yV2R6MW5ZYTViYkVTay1OYzktTkRGUDNFS21GekI1c3oyQjVmQkpta2hNcWdOeXRJcEE?oc=5",
+      "featured": false
+    },
+    {
       "title": "Polk County Public Schools considering high school rezoning due to population changes - WFLA",
       "city": "Polk County",
       "category": "Community",
@@ -396,18 +372,6 @@
       "source": "WFLA",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORFB4Zzh2eldnTVlFcDlpeWdnR3RJSVZVcDNQZXBuY2h2UkMyVVFGZjVMT1RBOFpGcFhJVWlQZ05OM0ZZeDl1UnNkR29IcWpJVUxEVHNkOTBWY2d1UzRoN3h3b0tXcHNGM3FaWG1kbWVJT0VrdS11ZU1Kd0lmWlhKWlRYZE8tWE9qWW9ET1ZiWm1wQnhLSUoxN2xwMjItRXprWlpVdV84WHFNbWp5LXBYczBMUFFVelBoM01WSmh2WDN0UdIBxwFBVV95cUxNTF9meGZJUVFjRkZCcENRcFJyYjJVU054T1M2MEY0N3dZaWJnYk8zRElTWHMwM0Zqc3YxYlV5QVA2S0dGWVJZWnBpaVNrV3BmS1JuanpCeEJscXRDdnczTTJ0YURROE1VbmtSUjZ4eUlhVXIwR3JVV0d0WjNJUnVHOXF6azR0UUhHd3hzc091TGdaQ1c5ZktidTNxak1pTUsteExHOVZmbEtmZ3ZkT2stUDNfN3YwTUt6RTRVczVRNnV4LXJlYndZ?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Polk County School Board discusses rezoning certain - wtsp.com",
-      "city": "Polk County",
-      "category": "Community",
-      "status": "Coming Soon",
-      "date": "Aug 12, 2025",
-      "summary": "Polk County School Board discusses rezoning certain wtsp.com",
-      "source": "wtsp.com",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1pKR3k1UjhrMVV4VnVIZ3o5Nk00SndUUzlqYm11RXZPVVJkNWpDRzFXMzVmU1pUNmpxZWlYcWphNjZtSUVWSy1oYWsxX2ZVX2tDOTNLVjI3T0paTE9GRU1HazUyYkxEWnZodUlfTWNLQ3ROa0tkbVhSdTRyX0pIQmtGdS1DNHFuaHFILUJ5TFN1UDZMR2huWHNVOUZnYUJ5TnFOaF9KeGtVSElBS0VsTk1oZHBkWUYzRUFyQ1R3RQ?oc=5",
       "featured": false
     },
     {
@@ -423,6 +387,30 @@
       "featured": false
     },
     {
+      "title": "Polk County School Board discusses rezoning certain - wtsp.com",
+      "city": "Polk County",
+      "category": "Community",
+      "status": "Coming Soon",
+      "date": "Aug 12, 2025",
+      "summary": "Polk County School Board discusses rezoning certain wtsp.com",
+      "source": "wtsp.com",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1pKR3k1UjhrMVV4VnVIZ3o5Nk00SndUUzlqYm11RXZPVVJkNWpDRzFXMzVmU1pUNmpxZWlYcWphNjZtSUVWSy1oYWsxX2ZVX2tDOTNLVjI3T0paTE9GRU1HazUyYkxEWnZodUlfTWNLQ3ROa0tkbVhSdTRyX0pIQmtGdS1DNHFuaHFILUJ5TFN1UDZMR2huWHNVOUZnYUJ5TnFOaF9KeGtVSElBS0VsTk1oZHBkWUYzRUFyQ1R3RQ?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Polk County Schools is looking at high school rezoning options - Tampa Bay 28",
+      "city": "Polk County",
+      "category": "Community",
+      "status": "Coming Soon",
+      "date": "Aug 04, 2025",
+      "summary": "Polk County Schools is looking at high school rezoning options Tampa Bay 28",
+      "source": "Tampa Bay 28",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVW9Za05yX19aVFZWR3ItQ2xHM3ZRRHhLZ1kyQ0V4ZjI0a0VxVXExcEFCMVg3aWNzMmNTSzAtV0tTSDUwUmI3M3pPODVScVdpbkxETFJlMVZCbGUwRWxSLU5Qa1lNRktYZE1hY2FUekY3QnFRQW1rd0ZRNVc4X3BPdUVyVm5zaDdBbHdQc1Vrd2VTUWs4d3B2TWd3dG5IOHJud1MzR3Zuel95QQ?oc=5",
+      "featured": false
+    },
+    {
       "title": "Polk County schools plan comprehensive rezoning for 2026-27 school year - WFLA",
       "city": "Polk County",
       "category": "Community",
@@ -432,18 +420,6 @@
       "source": "WFLA",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOEtaV21Pck1WRWd6V3V4UWpBUzYxa3hxbC1YWll6ajNOQ1RMRS01TUQyR0JZRzJxMTNTUDdGNXZ6THMtdkNYaDRzZEVTdHlUVm4teWtlRXJjVlRmVXltRGo3SmdxWXo4TjdtSWpXYTM5a2FYdlQtb2V0Y0NnWUl2OUx0dVQ2Y1BPeHJrM2w0eE8tWVI0VVZHY0piMktpMXZrdUxSUS0wR294Zk5ubU9v0gG0AUFVX3lxTE9SUEFrejZBT3V3RDlpZzl4OXZXbEdVUEs1S3hWMFQ4Y0s4ZjEwMjVCa2QyOGU4aS1BMnh4T2VHQ3FkUHdCR0VoU252UkcyMVdLcFB3OERneFNlRjZfY3diWklid3FfTXJNeFdUMVpobTBmd0hMWnhOamtmdTFsZW03NXdpLUZtYzZlTzZwNU5SRDVrUlhoa1UtSnRVc1dxY1dlXzd5MlNfamU2YkV4WDlfSEZ4Mw?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Some Polk County parents express worry as high school rezoning plans take shape - Tampa Bay 28",
-      "city": "Polk County",
-      "category": "Community",
-      "status": "Coming Soon",
-      "date": "Aug 28, 2025",
-      "summary": "Some Polk County parents express worry as high school rezoning plans take shape Tampa Bay 28",
-      "source": "Tampa Bay 28",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVkxyODNuSm5Ja3pXQW9kOVFOU1NHZnBjUVpQeGZsNzItTTM1bnBWTFVVWXphZUNUUWtzbUFqVjBqeUZIUFMyclg1azVvczJUTS1UaVN6S3FpMU1vTVhGMVJoZXdQNVJBeFBGY2dhdDcwN1JyZ1NKVUc0c2J6QjdkaG9WVGU3Z0I0dGlYemN5aU53MjVfSF9oa3NqT0lIYUFOOVBtbXRac0pVc1NpQlJvbnZwQzhBMTdqendrTzhIZU4?oc=5",
       "featured": false
     },
     {
@@ -459,15 +435,15 @@
       "featured": false
     },
     {
-      "title": "‘We’re Going to Embrace Change’: Lakeland Responds to High School Rezoning - LkldNow",
-      "city": "Lakeland",
+      "title": "Some Polk County parents express worry as high school rezoning plans take shape - Tampa Bay 28",
+      "city": "Polk County",
       "category": "Community",
       "status": "Coming Soon",
-      "date": "Sep 08, 2025",
-      "summary": "‘We’re Going to Embrace Change’: Lakeland Responds to High School Rezoning LkldNow",
-      "source": "LkldNow",
+      "date": "Aug 28, 2025",
+      "summary": "Some Polk County parents express worry as high school rezoning plans take shape Tampa Bay 28",
+      "source": "Tampa Bay 28",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPclhramJ0aURYUVVWYTZobl9iV00wX29Sa3ROZmhFUzV1S1Q1Rk9ic1MxdFAwRTd4VDNuZlBXSzJFYzJTZWtTYTYyTDYwUWR2bkFxZ1RybUdiU1E3TFhpdzBxRXJtdUZvTmdIczlsY1oySnoyVzR2T3BtSGVOTGZjWUlJa1NtNzh1LXl4Tm93d19zcExfakJod2ZqRQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVkxyODNuSm5Ja3pXQW9kOVFOU1NHZnBjUVpQeGZsNzItTTM1bnBWTFVVWXphZUNUUWtzbUFqVjBqeUZIUFMyclg1azVvczJUTS1UaVN6S3FpMU1vTVhGMVJoZXdQNVJBeFBGY2dhdDcwN1JyZ1NKVUc0c2J6QjdkaG9WVGU3Z0I0dGlYemN5aU53MjVfSF9oa3NqT0lIYUFOOVBtbXRac0pVc1NpQlJvbnZwQzhBMTdqendrTzhIZU4?oc=5",
       "featured": false
     },
     {
@@ -1080,6 +1056,30 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWhycTBsOXhuN3hoUnUwT2wxSUpaRkx1cE1GQTBGckZxVXFBZ0J0NnZPWlMzV05PcFBXUm14X0NMOUpOWW1RQ1RNVEl3NkdWcExTazJGN0dfSk5nVmpuWnBPd3ZhcTUwYnZxM2Y4Vk9qeHN5MFloVFhJejFzVkJacU5KSV84N0RxRzducnRyQWNnRmlHMU9icg?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Lakeland Approves Shipping Containers for Housing, Small Businesses - LkldNow",
+      "city": "Lakeland",
+      "category": "Housing",
+      "status": "Update",
+      "date": "Oct 18, 2021",
+      "summary": "Lakeland Approves Shipping Containers for Housing, Small Businesses LkldNow",
+      "source": "LkldNow",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcmstMkhYR0dOUXpqRjU0YUt0T0gwOS1ubTRsMGxibFRGNGtkRE1jaTZmQTZIc2FLQ09UTGVCRURiT01IX2k5d0gta3Q0MjNQU1JseTZHQzFUdnVvclZHVF9QOFA4WEpvVWZjdnNSMGpKX2dObzZya2J1Nk02Y0R3Q25XZE1mMmplQ2I1RkRWbVB0WWdkM3c?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Developer Plans to Convert Former Sears at Lakeland Square Mall Into 320 Apartments - LkldNow",
+      "city": "Lakeland",
+      "category": "Housing",
+      "status": "Update",
+      "date": "Jun 24, 2023",
+      "summary": "Developer Plans to Convert Former Sears at Lakeland Square Mall Into 320 Apartments LkldNow",
+      "source": "LkldNow",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbERBUk4xTTF2WVdYcjVvc0tZQm1uT3kxbUpkN0E2cmVxRnBabURIbkN1VnhoMjZHUXNkNHZBdWhmU0w1WEFsVFpSeFZ5YVNTQXVibllGTUNWQklsVmd6emE4NjAyb2ljdi1rSXBwTWNJRXNkWU9OdWxsOG9oOVRqWWdSOWZUZnB0SUx0ci0wUnpESWpVVWJxSFpXeFR5S0VHX2FWcXZXZmctc252?oc=5",
       "featured": false
     }
   ]
