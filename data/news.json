@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30 01:35 UTC",
+  "last_updated": "2026-06-30 05:54 UTC",
   "feed_mode": "live-expanded",
   "items": [
     {
@@ -12,18 +12,6 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSVpwZS1OTHkyR25NUGdvTlJINTZ6bUh0VXJ5dk5mcWwwd1RLQ1JRbEMzS2dXNGpDSUNfRWUxZktFQnlHcXRMSGhZZ1A4dVVlWXYxZnBRbWdQcFRwVzZQaERFMWpEUjhnd1VYdUlpYUJnOHFSZm9ZRndxT1dPNmU0M2t3RXpya0NuNHdfV2E3X1VsOTBGN0tXZllCejZGVlJ5UC1QSjFqb0pHSm5NS29KekdacnoxVXBIUGtHT2dIakZPcDFiMGZUTUw5WlA5MlNvd0ZmTFNoVjRESVFxOXNkdkQzbTVMNW8?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Find hidden treasures inside this Polk County antique store - FOX 35 Orlando",
-      "city": "Polk County",
-      "category": "Retail",
-      "status": "Update",
-      "date": "Feb 17, 2026",
-      "summary": "Find hidden treasures inside this Polk County antique store FOX 35 Orlando",
-      "source": "FOX 35 Orlando",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBPcGk4cWN5THlIZkVJNW9sY3FybVRKLTFfeGh2VkpDQzEyNXJ6QWhFUUN4MFZJR2R0dUFSYXE1Z3Z1WHhRazVHbUNVbGw2UUR1eGdxYlBNbTdvYmxzdklXNFlFMnA5UdIBa0FVX3lxTE5sTXhrRUNxd0JZR0ZkdlJNdXhwcjlWenlNWERFMzdYWk5DeHl1T2pFdVVObnRtZWQ2Q2ZSdElTWTl5UkVRd1Q4S0JNM3hxemlwTmVDQVF5cDNxRmdoQ3Fma2loUEhpVGR4dWRv?oc=5",
       "featured": false
     },
     {
@@ -48,6 +36,18 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM21YZ2VFeEhLSVh3OVF0ZXdMRXhOYVJaQ3ZJNERDWTk1MGxCbFhrcEM4b0U0eExIZk5LYjN1OG9DTW9UX1BCU1h5cFFxWERLWUs2ZERMOVVtajBLbUI5VVllNVZnbTA1TmJqNm1DYmJ3S1NCM3kyVzZyeEUwNm9seldmc3ROd2VfZ0dnRXpwRVoxSEY0UkxCanJNYUZDU0ZQV1c0ZUs3NUJCTTMwRzBOX011WC1zTWdyYUZ3cHIwdFZ5ZjJ6Vi1Gbl80VUd4dWZQa3lDTUNfMjBZNXI0cW9ORkNYRjh2V19CTGp3?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Polk Restaurants open on Thanksgiving Day range from casual to upscale - Lakeland Ledger",
+      "city": "Lakeland",
+      "category": "Restaurant",
+      "status": "Update",
+      "date": "Nov 21, 2025",
+      "summary": "Polk Restaurants open on Thanksgiving Day range from casual to upscale Lakeland Ledger",
+      "source": "Lakeland Ledger",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSUVZc3lNUmoxTy1qN25xY1c3Qm4zSGUxSDFKanpsaWRUdW9TeVlaUVlRdmh4c2wxem1BVE9kUURYMnMzR0trSTNUNzR6U3pjbkxXdWl6QkFJZVd0Nnk3TEhiY0VKdGh3YlJiMWpITHZIRl9BZjVZcDB2Z1VZU0thSU9WSHJpM1hLdWNOSFhDQmlUUGFjd0dhcGJfQmhkSWdtcjZnOUIxTi1NOS14OC1JcGNnRHpWdmtGTVlESHBtZHFEdjJFTVowRWg2YzFDTlRnbUUzbTFvUjdSOTJ3TWkxMWJ4dFVCMTRLekE?oc=5",
       "featured": false
     },
     {
@@ -159,18 +159,6 @@
       "featured": false
     },
     {
-      "title": "This day in history: Ronald Reagan addressed GOP convention in Spokane. Belgian police dog fled Davenport Hotel - The Spokesman-Review",
-      "city": "Davenport",
-      "category": "Hotel",
-      "status": "Update",
-      "date": "Jun 19, 2026",
-      "summary": "This day in history: Ronald Reagan addressed GOP convention in Spokane. Belgian police dog fled Davenport Hotel The Spokesman-Review",
-      "source": "The Spokesman-Review",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc1YxWHdsWjE4Zk1sQ3B3N19lTkNwTktqTnFpVm9QQkp3aDNFS19mamJoeU9Yc2VyeWRmSWUxU2R4dF9RTG9WWEN4T3ZkYjMzZWhKc0RKZmRBdGlKREFsSTJUcmFWSDNhbC1Vc28wMkFTcnpoRE83V0ptVmdzWEs3SHhScjZxa0JZaEg3YmZOdDN3alotOEMwQXhncDlRZw?oc=5",
-      "featured": false
-    },
-    {
       "title": "The Phoenix, Downtown Davenport restaurant, calls on community for support - KWQC",
       "city": "Davenport",
       "category": "Restaurant",
@@ -204,6 +192,18 @@
       "source": "KWQC",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNWlVeUVOZFVFcGNjdDVHd1RRVDE5YmdXMndVN0xLZE0zVUVVTmJlZU9SQlJIMmx1MFFOVW4tT2tpSnd3Nk9mbnVRTTNDLXhrNzBadkxwWTBvZ3hIV3NwQ2FWNXJTSmYyZXR6MUJHNm9ucl9EWlNxTmVvbVpONHR0T0JoS1VGWTg1d0xGcUV4T3JFNVh3ZkdDNHpVeWTSAbABQVVfeXFMTjNueVFyVFBNTE5RLUtyTmc3T2ZwWmFNOWUxTmFBTWU1bjB6dDlEcUNlTWZlTktJc2swcWxYaF9CaEpTdVVDN0R3MlFveWQ2UWRnRmFCSUNkTEtodkp0Nm9lSlR1encyNW9ZM0dDZFJiRGN1MHRuOEI1ZEpjY2Z4cXU2NS10NVFhQVJobHRELWhNcENjcjJmWTBtRXFGMEZPdkpNWEFvdXBNejZ1UDNXYV8?oc=5",
+      "featured": false
+    },
+    {
+      "title": "This day in history: Ronald Reagan addressed GOP convention in Spokane. Belgian police dog fled Davenport Hotel - The Spokesman-Review",
+      "city": "Davenport",
+      "category": "Hotel",
+      "status": "Update",
+      "date": "Jun 19, 2026",
+      "summary": "This day in history: Ronald Reagan addressed GOP convention in Spokane. Belgian police dog fled Davenport Hotel The Spokesman-Review",
+      "source": "The Spokesman-Review",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc1YxWHdsWjE4Zk1sQ3B3N19lTkNwTktqTnFpVm9QQkp3aDNFS19mamJoeU9Yc2VyeWRmSWUxU2R4dF9RTG9WWEN4T3ZkYjMzZWhKc0RKZmRBdGlKREFsSTJUcmFWSDNhbC1Vc28wMkFTcnpoRE83V0ptVmdzWEs3SHhScjZxa0JZaEg3YmZOdDN3alotOEMwQXhncDlRZw?oc=5",
       "featured": false
     },
     {
@@ -252,18 +252,6 @@
       "source": "Tampa Bay 28",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVRwVmJBWndnNEhfcmwzanVCYzBFVHctYkgxdjNGcUNodUxTR3FwZG9weV94dzItcHMwYVZ6WVA4YzhPQ1lUVXRicmJYMVk5dHBqRWJiZG5HOWUwcmljTk1aWXMwVFEyNG5FOFBFXzlSeFQ1MFR3SHJKRHotZVFubXNydGdSQnBMeS1fUllzU2tJa3IyaVRjNVpsa2NFQWhQRnhQbm9UQWdITXFlMEJsSmZhU1ZvTDVwVWJkWlVHSTFxbzItbXZCOHdVcEhMUHJKNklHMDVBdjE?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Davenport restaurant at risk of closing without community support - Yahoo",
-      "city": "Davenport",
-      "category": "Restaurant",
-      "status": "Update",
-      "date": "Jun 20, 2026",
-      "summary": "Davenport restaurant at risk of closing without community support Yahoo",
-      "source": "Yahoo",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVkhPU3FNdm1TN2FzdGtnYlJQbFJWOFJxNEoxNXpneFMyTjlheWtzUG5xb2htSTBHeDJXZVVMMzd0WmNablZjTkFNSmdEZlZ5UDU5ME5qT25KRndwVTdXMXVLLXF3cWNpRVg3XzNTN2pfRVRfVmJfck1DNnlJcFFXcGpiV3lNNE8xNDhFamZYZU9FMlRO?oc=5",
       "featured": false
     },
     {
@@ -1080,6 +1068,18 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU3lXOVpFZ3hWQVNZTmRaTzNWSUxWSzRJZnVEaU54YlpvT0taZHM4ZGtVeFpBandTSlZwNnNvWWRQeTgyNEctRzZOUXBocTV5M1NnTGZzakhYcFlOZEU0dFJIX1pxNUZzeVFLUWNMYUg2dFBDazhUR2h3aEdYQWFXaWFhc3FibGpMT0hrY1N1clczQ1pXVEJJeDVzVUNBeXhEUWRFR0tGLV9pYzZxRVRLc25CUzhmZTZ5TFJrYm1yb2N1RWRkdVE?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Expanding in Wahneta: Plaza Mexico Plans Expansion Project - Lakeland Ledger",
+      "city": "Lakeland",
+      "category": "Retail",
+      "status": "Update",
+      "date": "Sep 24, 2014",
+      "summary": "Expanding in Wahneta: Plaza Mexico Plans Expansion Project Lakeland Ledger",
+      "source": "Lakeland Ledger",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWhycTBsOXhuN3hoUnUwT2wxSUpaRkx1cE1GQTBGckZxVXFBZ0J0NnZPWlMzV05PcFBXUm14X0NMOUpOWW1RQ1RNVEl3NkdWcExTazJGN0dfSk5nVmpuWnBPd3ZhcTUwYnZxM2Y4Vk9qeHN5MFloVFhJejFzVkJacU5KSV84N0RxRzducnRyQWNnRmlHMU9icg?oc=5",
       "featured": false
     }
   ]
