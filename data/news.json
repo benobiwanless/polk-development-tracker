@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01 08:51 UTC",
+  "last_updated": "2026-07-01 11:50 UTC",
   "feed_mode": "live-expanded",
   "items": [
     {
@@ -228,18 +228,6 @@
       "source": "Yahoo",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWHFwV3J5LURRMVRHUTJpRDhjb3R6WXZfcjVvSXBkTldEUEZuY0JueWxOb3BiZXBHd2duWkFJTmNhc0U0eFVKRmZmaENGcTRvaWFKYUlUaFJkYkRpelliQVotU0oxVmhZcW5ES2RPRUVaUEdQN3g4U2pnQnNvSm5kQW1sV1NINHNvUFNDSnNVWnVNNmQ5WDVZ?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Beloved Davenport Restaurant Lunardi’s to Close After 37 Years of Family Ownership - Voice of Muscatine",
-      "city": "Davenport",
-      "category": "Restaurant",
-      "status": "Update",
-      "date": "Jun 12, 2026",
-      "summary": "Beloved Davenport Restaurant Lunardi’s to Close After 37 Years of Family Ownership Voice of Muscatine",
-      "source": "Voice of Muscatine",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUmpoWS1OSTNZMDE0aUw4MlUyS3pMcGRmVkd3QnQwbGd2UVlRQTJDVkg5bU9weGxXdmNJbHJHU3ZlLWxFUU1md0I0U1RwbGdLVURTSE5HcmlKa19nMVRoNEZQM04yYjJFT1Q4T2tqQ1dUQzJRUTUtQi1tVmpEak1Fa1U4RmtaYmRkODRlM3l4Ri10dFc3TEUxY29ZZ2xIa01IT2tnTW5VWGdxNWNUM3VmSkZvQlZ2SV9FMEdhQUVQUEE5ZnJfMVE?oc=5",
       "featured": false
     },
     {
@@ -576,18 +564,6 @@
       "source": "Business Debut",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNW9oWmFEVVBWcDI5YW04c3Q5TWMyZWhmWndWX2MyUTZaMzVHWldkTmg4QmxxLXU5cGFteDI4U0FMSGQyUTRNb0lnakZTTU9LbWx1UHpGTEF1eXU4dkxnb2JhUzF6QnVjUE9LUjl2c1RlME5CRjJzVXo5WU1FcEdtMGxQRkZSbWVFM1BjOFRPSGljNDc4bmVFQTl2RQ?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Raise the Bar and Grill Opening Soon in Lake Alfred - Business Debut",
-      "city": "Lake Alfred",
-      "category": "Development",
-      "status": "Grand Opening",
-      "date": "Oct 07, 2025",
-      "summary": "Raise the Bar and Grill Opening Soon in Lake Alfred Business Debut",
-      "source": "Business Debut",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZFp3LTctNnRYbnRKU0RsaG5LT0IyZHQydkJWV2pKS2RvMThOM0lnX3VnV1pUMFF4cVFObWJ2NmVGMlFRODRBQzRhV1hxZU1JclRiQUZ2T1JOTk5wNzQySTVGMHpnbnRzVzVFMFpPb2JFbG1TWjYxb2M1enB5ZVlzTVozaWJ0aFFOc2c?oc=5",
       "featured": false
     },
     {
@@ -1080,6 +1056,30 @@
       "source": "LkldNow",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbERBUk4xTTF2WVdYcjVvc0tZQm1uT3kxbUpkN0E2cmVxRnBabURIbkN1VnhoMjZHUXNkNHZBdWhmU0w1WEFsVFpSeFZ5YVNTQXVibllGTUNWQklsVmd6emE4NjAyb2ljdi1rSXBwTWNJRXNkWU9OdWxsOG9oOVRqWWdSOWZUZnB0SUx0ci0wUnpESWpVVWJxSFpXeFR5S0VHX2FWcXZXZmctc252?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Three Projects Propose 1,000 Apartments in Southwest Lakeland - LkldNow",
+      "city": "Lakeland",
+      "category": "Housing",
+      "status": "Update",
+      "date": "Mar 17, 2022",
+      "summary": "Three Projects Propose 1,000 Apartments in Southwest Lakeland LkldNow",
+      "source": "LkldNow",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOElLdWxfUFFqYl80bTlvbE9pbUpDSm9pSDJBYnFLNU9MOWtXZS1fVW1uTTlWTTZLY2prZWJaTU9xWGJJMmJSSzk4aVlzUnZqbGlPajBCellEaWxFRUdPdWIzRWZNeThYdWJaMHE4dWdYa2lpQ1ZNMWQ1S0ZSRG1uVFZOMmVLa2J3S3hhQnpB?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Lakeland Invests in Affordable Housing, But New Units are ‘Not Nearly Enough’ - LkldNow",
+      "city": "Lakeland",
+      "category": "Housing",
+      "status": "Update",
+      "date": "Sep 18, 2023",
+      "summary": "Lakeland Invests in Affordable Housing, But New Units are ‘Not Nearly Enough’ LkldNow",
+      "source": "LkldNow",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUURpenh4TkczQWh2ZFNBb01zNVAxRHBoa20zZm5TUFNMU1Jpc2JxWU1kdGJGVVNEQnlWOUpoV2FtSkExUFVIZElDTGIwSEwzLUpmY3lmZGZaV3NYeEtENHEtZ29NYU8yMU9FS2JRamxmY1VmTHByYWYybDVQTDI2eUNmUlNRMHM1NkZVbFJHaVFFeTlMRjVvYWg3X01rVTdT?oc=5",
       "featured": false
     }
   ]
