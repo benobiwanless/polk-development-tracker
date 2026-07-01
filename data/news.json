@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01 18:30 UTC",
+  "last_updated": "2026-07-01 20:25 UTC",
   "feed_mode": "live-expanded",
   "items": [
     {
@@ -36,18 +36,6 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM21YZ2VFeEhLSVh3OVF0ZXdMRXhOYVJaQ3ZJNERDWTk1MGxCbFhrcEM4b0U0eExIZk5LYjN1OG9DTW9UX1BCU1h5cFFxWERLWUs2ZERMOVVtajBLbUI5VVllNVZnbTA1TmJqNm1DYmJ3S1NCM3kyVzZyeEUwNm9seldmc3ROd2VfZ0dnRXpwRVoxSEY0UkxCanJNYUZDU0ZQV1c0ZUs3NUJCTTMwRzBOX011WC1zTWdyYUZ3cHIwdFZ5ZjJ6Vi1Gbl80VUd4dWZQa3lDTUNfMjBZNXI0cW9ORkNYRjh2V19CTGp3?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Polk Restaurants open on Thanksgiving Day range from casual to upscale - Lakeland Ledger",
-      "city": "Lakeland",
-      "category": "Restaurant",
-      "status": "Update",
-      "date": "Nov 21, 2025",
-      "summary": "Polk Restaurants open on Thanksgiving Day range from casual to upscale Lakeland Ledger",
-      "source": "Lakeland Ledger",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSUVZc3lNUmoxTy1qN25xY1c3Qm4zSGUxSDFKanpsaWRUdW9TeVlaUVlRdmh4c2wxem1BVE9kUURYMnMzR0trSTNUNzR6U3pjbkxXdWl6QkFJZVd0Nnk3TEhiY0VKdGh3YlJiMWpITHZIRl9BZjVZcDB2Z1VZU0thSU9WSHJpM1hLdWNOSFhDQmlUUGFjd0dhcGJfQmhkSWdtcjZnOUIxTi1NOS14OC1JcGNnRHpWdmtGTVlESHBtZHFEdjJFTVowRWg2YzFDTlRnbUUzbTFvUjdSOTJ3TWkxMWJ4dFVCMTRLekE?oc=5",
       "featured": false
     },
     {
@@ -96,6 +84,18 @@
       "source": "Iowa Department of Transportation (.gov)",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeTBWVmdpamN5bUY3aWI0X3I3MnEyUi1taDgxV3dsMDJlZXJDcEduQUhvUXpzaFNlOWU0aGxqanlhZ25JTmdWLTdVWDRaaVJhb0lLdVBHbFZJUjFjU1Q4d3hsNE5nUndaUUU0dFVoVjVzUXA2a05pdklyUUxKajZXRUFpOXk4YzZPdXJDZ3ZMX3pqV0xfelJCTzFGcFdjZDllUnFIOEo3M3FXVHBFdlFOb2J2cmdxMUc2SUtfLVFlSHVUMm1fOVhVZg?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Jay Davenport, VCU vice president for development and alumni relations since 2017, to take same post at Penn State - VCU News",
+      "city": "Davenport",
+      "category": "Development",
+      "status": "Update",
+      "date": "Jan 09, 2026",
+      "summary": "Jay Davenport, VCU vice president for development and alumni relations since 2017, to take same post at Penn State VCU News",
+      "source": "VCU News",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObGdCT0FPd1lyN0JKTThoRVBnZTNlZUlFaXItckt5NEJ3Tnhma195UGc5YnJFaGo4ODBGLVZuWi02YV9melVYN0Q1Y1VmRlc4SFF0ZmVraUs1UnM1RUV1MGROWUs2U0MxVzlEdWx4TE9vdWtteFpkelV2VUo0ZUpaSjVTQVJadE1kcjRwOHJlSHcxYzVuQzJDRDdqVkFrVzQwNFc2NW4yaktReFQ1N0RGMkhmNlBYNVRLdzRpZHhndWI3d2M?oc=5",
       "featured": false
     },
     {
@@ -171,18 +171,6 @@
       "featured": false
     },
     {
-      "title": "Jay Davenport, VCU vice president for development and alumni relations since 2017, to take same post at Penn State - VCU News",
-      "city": "Davenport",
-      "category": "Development",
-      "status": "Update",
-      "date": "Jan 09, 2026",
-      "summary": "Jay Davenport, VCU vice president for development and alumni relations since 2017, to take same post at Penn State VCU News",
-      "source": "VCU News",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObGdCT0FPd1lyN0JKTThoRVBnZTNlZUlFaXItckt5NEJ3Tnhma195UGc5YnJFaGo4ODBGLVZuWi02YV9melVYN0Q1Y1VmRlc4SFF0ZmVraUs1UnM1RUV1MGROWUs2U0MxVzlEdWx4TE9vdWtteFpkelV2VUo0ZUpaSjVTQVJadE1kcjRwOHJlSHcxYzVuQzJDRDdqVkFrVzQwNFc2NW4yaktReFQ1N0RGMkhmNlBYNVRLdzRpZHhndWI3d2M?oc=5",
-      "featured": false
-    },
-    {
       "title": "‘Quad Cities Construction Hike for Hope’ steps off Saturday in Davenport - KWQC",
       "city": "Davenport",
       "category": "Development",
@@ -219,15 +207,15 @@
       "featured": false
     },
     {
-      "title": "At a glance: Polk County School Board approves minutes, policies, appointments, code of conduct and rezoning - Citizen Portal AI",
-      "city": "Polk County",
-      "category": "Community",
-      "status": "Coming Soon",
-      "date": "Jun 08, 2026",
-      "summary": "At a glance: Polk County School Board approves minutes, policies, appointments, code of conduct and rezoning Citizen Portal AI",
-      "source": "Citizen Portal AI",
+      "title": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay - Yahoo",
+      "city": "Davenport",
+      "category": "Restaurant",
+      "status": "Update",
+      "date": "Jun 21, 2026",
+      "summary": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay Yahoo",
+      "source": "Yahoo",
       "image": "",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQUTRxTm5hbC12MUxFZGFPdlAzZkVEcGZMalFValRYQW9XaTZpNFBuQ3ZDR1ZXNHM1cG55eEJMMjNlcVoyeVhHR1ZUWlprSUFfMTBRWGwwNTZmUFhzYUxYUVNEaHMxempUS25oekJSWV9rWjJONTlyaDcyV3I3RG43cG5QczRHdmxZclVXaVNmbVY3VUdVRzhJZXMyelBubDI0U3g3bkpUR2dGRGxaYmRoVVJrTVZwSmxUNl94TGg1Xzh6RlVEV2RoS2VHbnAxQU84RnVqSE9YQWtJd1hiTTJLRVJoSEFnYWQxdHdCbzlUcE80dzV6SjdvbHRQR3VDUVpUZkNfbEI2Yw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWHFwV3J5LURRMVRHUTJpRDhjb3R6WXZfcjVvSXBkTldEUEZuY0JueWxOb3BiZXBHd2duWkFJTmNhc0U0eFVKRmZmaENGcTRvaWFKYUlUaFJkYkRpelliQVotU0oxVmhZcW5ES2RPRUVaUEdQN3g4U2pnQnNvSm5kQW1sV1NINHNvUFNDSnNVWnVNNmQ5WDVZ?oc=5",
       "featured": false
     },
     {
@@ -423,6 +411,18 @@
       "featured": false
     },
     {
+      "title": "Some Polk County parents express worry as high school rezoning plans take shape - Tampa Bay 28",
+      "city": "Polk County",
+      "category": "Community",
+      "status": "Coming Soon",
+      "date": "Aug 28, 2025",
+      "summary": "Some Polk County parents express worry as high school rezoning plans take shape Tampa Bay 28",
+      "source": "Tampa Bay 28",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVkxyODNuSm5Ja3pXQW9kOVFOU1NHZnBjUVpQeGZsNzItTTM1bnBWTFVVWXphZUNUUWtzbUFqVjBqeUZIUFMyclg1azVvczJUTS1UaVN6S3FpMU1vTVhGMVJoZXdQNVJBeFBGY2dhdDcwN1JyZ1NKVUc0c2J6QjdkaG9WVGU3Z0I0dGlYemN5aU53MjVfSF9oa3NqT0lIYUFOOVBtbXRac0pVc1NpQlJvbnZwQzhBMTdqendrTzhIZU4?oc=5",
+      "featured": false
+    },
+    {
       "title": "What's new and coming soon to Lakeland - 6AM City",
       "city": "Lakeland",
       "category": "Development",
@@ -567,18 +567,6 @@
       "featured": false
     },
     {
-      "title": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay - WFTV",
-      "city": "Davenport",
-      "category": "Restaurant",
-      "status": "Update",
-      "date": "Jun 21, 2026",
-      "summary": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay WFTV",
-      "source": "WFTV",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVnE2OFFQQWcyNEJyVlJBWS15anRhRUFfUTNRdGRzclVQXzRPRXRRVW8xdkZjQjVpQlludkJWZ2RsQ3JZWm9Ob2ZBTHNRVXZsTzVWMHlZUFR0M1ZiWS1zMUlhLVo2Ym9fWlFJSGJSMVpqZHkydG9wV1M4Z2VzOUF2V3UyN1ljOGRVRUxsRjFLRVFOcENDQkFjU2x0TndTVnduM3pxWkZtVmZpSW55dWE2UW5xM2dqdjFrY3d0V08yVlVvWG520gHYAUFVX3lxTE1qOWI5VXoyd2phRmEtOTI2WDJqcFpUdF9BeG40TGNxN1RMSWNJMy0tNk1zNFFVRDloZEZRbGZsSTBySi1YdWJrSFVkWi11R3kzbWJibjJFTUlCZFJWckNWOFd3SkJETWdvMy16Y1oyQ0hHeXpZbUV3LVhhclNYaXNfcVU4b2ozSUR4RUlOa3hYank0eHlFcHE3Yjg1M3JpNFh5MGVNMUo2V29sYjRyaFhNQ1kwVlktYTZINjZvenpEWDlHZXlxSTRrM011cUgyZlJHY1c1NHdiUw?oc=5",
-      "featured": false
-    },
-    {
       "title": "Ollie’s Bargain Outlet to open Davenport store - KWQC",
       "city": "Davenport",
       "category": "Retail",
@@ -588,6 +576,18 @@
       "source": "KWQC",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEV3UGFvX3k2YllFN3pKYU4zeTJLLWpVaGY2YklzVEw1bVhjZ0gxZUd1WmdkOTJBcTA0amp6LXFrOHc4NzdLc1V6NTVHbEZnN0VIVHdkcm50MkVjOHJpTmJlZ2lGU1RGb0RfN2lZcUdHcGoyUzJMaVFkdHUxelQ2NNIBlAFBVV95cUxNaGxZUmJMUnQ2M0tWdEJBYzNuRnM0RzdQZUI0Sk9SLWVaNFF3UjM0SkdiODFLV0tjUkVNRnhHOGw2OE5HZzdkU2xWX19wZEpIcFhDcW1Za25QNkIyRk56ajMyR3VjYUlIT1o2T3VMOGdYZnp5WlZSUEEwU0dOSnVHY09iX0JOVGpuTWVpRERqYkpscmR3?oc=5",
+      "featured": false
+    },
+    {
+      "title": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay - WFTV",
+      "city": "Davenport",
+      "category": "Restaurant",
+      "status": "Update",
+      "date": "Jun 21, 2026",
+      "summary": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay WFTV",
+      "source": "WFTV",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVnE2OFFQQWcyNEJyVlJBWS15anRhRUFfUTNRdGRzclVQXzRPRXRRVW8xdkZjQjVpQlludkJWZ2RsQ3JZWm9Ob2ZBTHNRVXZsTzVWMHlZUFR0M1ZiWS1zMUlhLVo2Ym9fWlFJSGJSMVpqZHkydG9wV1M4Z2VzOUF2V3UyN1ljOGRVRUxsRjFLRVFOcENDQkFjU2x0TndTVnduM3pxWkZtVmZpSW55dWE2UW5xM2dqdjFrY3d0V08yVlVvWG520gHYAUFVX3lxTE1qOWI5VXoyd2phRmEtOTI2WDJqcFpUdF9BeG40TGNxN1RMSWNJMy0tNk1zNFFVRDloZEZRbGZsSTBySi1YdWJrSFVkWi11R3kzbWJibjJFTUlCZFJWckNWOFd3SkJETWdvMy16Y1oyQ0hHeXpZbUV3LVhhclNYaXNfcVU4b2ozSUR4RUlOa3hYank0eHlFcHE3Yjg1M3JpNFh5MGVNMUo2V29sYjRyaFhNQ1kwVlktYTZINjZvenpEWDlHZXlxSTRrM011cUgyZlJHY1c1NHdiUw?oc=5",
       "featured": false
     },
     {
@@ -627,6 +627,18 @@
       "featured": false
     },
     {
+      "title": "Publix opening new Florida store with latest redesign. Here's where - Lakeland Ledger",
+      "city": "Lakeland",
+      "category": "Retail",
+      "status": "Grand Opening",
+      "date": "Apr 29, 2026",
+      "summary": "Publix opening new Florida store with latest redesign. Here's where Lakeland Ledger",
+      "source": "Lakeland Ledger",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEdlTjFOUnJSaXAwUFVnRnZfNFU5dXpMTi1RQkR2TVVHenBMaVVBQzJBMzB3SktycnFXX2l2T3kyX2Zmc0duQ0p2bWVVWXdmaHVMaWMxNzZUdnI5cVdQWm1NZHYzY0djYVJBd2dsenN3NEJRamVBTHZaN0FORkxTaXV4dmNieGVIekVPWkNXNGJOanhzY2cyV01qRDVlVHFpNUMyUA?oc=5",
+      "featured": false
+    },
+    {
       "title": "Dave & Buster’s announces Davenport grand opening - OurQuadCities",
       "city": "Davenport",
       "category": "Development",
@@ -660,18 +672,6 @@
       "source": "WQAD",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNckNUMF85VF8xYU5ybjk2a1hRTUJjRFNUSTQ0blRaV19nbjR6RWFSWldOb1VoWVZRUDNOZFJlUTBxYWdiclRiclFaaDhINWg2c011Q2tCalY3eDlUbXZNZVdsOVN5SUZIRjcwSHFSemtBeXp5eFZUUzZrTW5KcGFrOVdfOTkzYXZBWW9LSGhJSXl4Y1VaNnUzV1N5Z0lVMWlpM29nZGExNTFUTWVXTjE1OEdVVDUxalpMSF93S3Y0VVJKZllWRG1vOGlKUEllMEs5WU5qSF9SSXBPM1luYXJLdGVfaHJCZ0hz?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Publix opening new Florida store with latest redesign. Here's where - Lakeland Ledger",
-      "city": "Lakeland",
-      "category": "Retail",
-      "status": "Grand Opening",
-      "date": "Apr 29, 2026",
-      "summary": "Publix opening new Florida store with latest redesign. Here's where Lakeland Ledger",
-      "source": "Lakeland Ledger",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTEdlTjFOUnJSaXAwUFVnRnZfNFU5dXpMTi1RQkR2TVVHenBMaVVBQzJBMzB3SktycnFXX2l2T3kyX2Zmc0duQ0p2bWVVWXdmaHVMaWMxNzZUdnI5cVdQWm1NZHYzY0djYVJBd2dsenN3NEJRamVBTHZaN0FORkxTaXV4dmNieGVIekVPWkNXNGJOanhzY2cyV01qRDVlVHFpNUMyUA?oc=5",
       "featured": false
     },
     {
@@ -711,18 +711,6 @@
       "featured": false
     },
     {
-      "title": "Academy Sports + Outdoors Opens New Lakeland Store with Grand Opening Deals & Giveaways - Tampa Bay 28",
-      "city": "Lakeland",
-      "category": "Retail",
-      "status": "Grand Opening",
-      "date": "Oct 17, 2025",
-      "summary": "Academy Sports + Outdoors Opens New Lakeland Store with Grand Opening Deals & Giveaways Tampa Bay 28",
-      "source": "Tampa Bay 28",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU0lRRWlUcmV1aXhLRXhsTW55Q1hQbzNqZUE1amNBS3VVemE1OG5IT0NwRy1ZNTNBTVFRUlI3by05MzAwVzhlOTJnUEJzUS1naGRKSGd2b0pHVVdsQmdNeVBJTWVZU0xfQVVYUTVseHBlR3k2TkpjRE5iUzJkNjBXUEJCZm5tVHJmQzk0Q0RmRHhDdTZCY0pjeHlqZEFYRVFJeXp5U01RLTVGTWRjZFJtZE4wUV9iZ2E1Z0tkWVU5em5Pdw?oc=5",
-      "featured": false
-    },
-    {
       "title": "The Country Squire Announces Grand Opening Celebration Week at New Lakeland Drive Location - PR.com",
       "city": "Lakeland",
       "category": "Development",
@@ -747,18 +735,6 @@
       "featured": false
     },
     {
-      "title": "Davenport’s first charter school now open - KWQC",
-      "city": "Davenport",
-      "category": "Community",
-      "status": "Grand Opening",
-      "date": "Aug 27, 2025",
-      "summary": "Davenport’s first charter school now open KWQC",
-      "source": "KWQC",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RQUVTNW10anc2c0dYM20ydUJfX25NREdsUHVtMmdUaUQydEI0TDZFMkJONGlTNlBELTdtakcyLTlDWUc3czdqSWlnems2S05iMkdBUTFnY2liYU1vdktKdTVNSDctcVdDOWJMMkRKM0dfTXQ5X1E5ZVlqRENWUdIBkgFBVV95cUxQenpRcnI2bFREc2JieVQtdEpiYWQxc0xqT2J5TTgydkRGUGRPTkk1VWJtMkIyZXV1TVFBTlp0YVhlVWhUWHhFUk5QNDNSb0tVcktGR1RHNE9YYTdBTDk0VGNEMGdGaE40TF9neEdFSzFWWW50SWVrQVNUT2pFM3BCamlhdF9xLVlyUXZ1U1Z4OUNBdw?oc=5",
-      "featured": false
-    },
-    {
       "title": "Fourth Aldi opens in Lakeland amid company's record store-opening pace - Lakeland Ledger",
       "city": "Lakeland",
       "category": "Retail",
@@ -768,6 +744,18 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWTQ4UFJjVjZvQWxCSVZrR005aXAtc3lERFVBRnpzU3N5cWZpMExKVmEwNWxWWHFrTzBQR0wzUVlUMkFiRWgtWDItRGRKQzRTUWN1T0wxUHV4ZGtGS0JySzJaU3duRmR5N3d4MGFmVG9saXZCV2E1VWxOZlg2SnRlczdSSWgzWnBNdS1PQWhNUHpQUEpIMElKNWpDSUZXZV9xSXJ0bXp6SlVOakI4YkxxVnVRV21SYnd3SU15OFBHbXNzNFNQRDRsQXRRVE1jYm9TTTc4WHRiVmV6aFJMOWlyRlRicTRPUQ?oc=5",
+      "featured": false
+    },
+    {
+      "title": "Davenport’s first charter school now open - KWQC",
+      "city": "Davenport",
+      "category": "Community",
+      "status": "Grand Opening",
+      "date": "Aug 27, 2025",
+      "summary": "Davenport’s first charter school now open KWQC",
+      "source": "KWQC",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RQUVTNW10anc2c0dYM20ydUJfX25NREdsUHVtMmdUaUQydEI0TDZFMkJONGlTNlBELTdtakcyLTlDWUc3czdqSWlnems2S05iMkdBUTFnY2liYU1vdktKdTVNSDctcVdDOWJMMkRKM0dfTXQ5X1E5ZVlqRENWUdIBkgFBVV95cUxQenpRcnI2bFREc2JieVQtdEpiYWQxc0xqT2J5TTgydkRGUGRPTkk1VWJtMkIyZXV1TVFBTlp0YVhlVWhUWHhFUk5QNDNSb0tVcktGR1RHNE9YYTdBTDk0VGNEMGdGaE40TF9neEdFSzFWWW50SWVrQVNUT2pFM3BCamlhdF9xLVlyUXZ1U1Z4OUNBdw?oc=5",
       "featured": false
     },
     {
@@ -792,6 +780,18 @@
       "source": "WQAD",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNeDlhQUUzYllseE5pQklNN3RXTV9scldoc3dVaUJBeXpuRkY1OUJKSGRDSk01NXk1S1MtRnNrdC1ERVVveF9HV2ZCQjNuUHZFc044TGc3Z19IV2NBR1F0dUp0ODJSVHVXTGZ4c0wtR3pZZmE0NHhTZlphNWpqNDVxcUUyRDc1VW9lMmpyUkxmT1FDdHpKcXJuNVNEbG9kMGhPWGt1d09VeXVOazZNMi1LelAxcDhTY1BGSWk3SnlUYk91ZzFERWJCcXZLbC1ldnBfNXlvckpsZ0ZYMGxCall2MkJPdjlhYjk3dHUwTTJYZFFJZTg5TWVwUTNWR3FxZUt1czk2N2dyUQ?oc=5",
+      "featured": false
+    },
+    {
+      "title": "PHOTOS: Lakeland's Bonnet Springs Park grand opening this weekend - Tampa Bay 28",
+      "city": "Lakeland",
+      "category": "Community",
+      "status": "Grand Opening",
+      "date": "Aug 24, 2025",
+      "summary": "PHOTOS: Lakeland's Bonnet Springs Park grand opening this weekend Tampa Bay 28",
+      "source": "Tampa Bay 28",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNk1LUE40UTNjdWg2MndCcE5SMXFYR2lvYXFsYXlRQkh3dU1IT1JpcFc4Nl8xTU9Wb1lnMFZ5RE5Cd2g5OXVNWl9QNTN1OHZlTUlnTWluT3BzVGlaZEkzUnZ2YkkzZzJVa3h0bVU1V2l0V283XzlQYWwtQ0owVExlQmM1UWNBcHluNTl2dnlQMktEb2dLT2tmYS1mbXRtUEZ3dkxVYjRiU1pRVGs?oc=5",
       "featured": false
     },
     {
@@ -951,6 +951,18 @@
       "featured": false
     },
     {
+      "title": "Winter Haven residents fume over zoning change on Thompson Nursery Road - Lakeland Ledger",
+      "city": "Lakeland",
+      "category": "Infrastructure",
+      "status": "Update",
+      "date": "Dec 10, 2025",
+      "summary": "Winter Haven residents fume over zoning change on Thompson Nursery Road Lakeland Ledger",
+      "source": "Lakeland Ledger",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLWNEZy1QbWlaazVwZmE2TjktdVN4QWNNTllxcllGN0lwZUtFZjl5S1Y2ay12MUxzN1FnLUFEdE1nMmZIb05TTEl2QTZmRWhNTDZQTEVCcndDLUd2NGhmaDBhVFlOc05VdjlUeXFIMkprX3dtNkQ5RTFSRVVld3JmZllLRkdNT2k4MERuQW55eEhORWZVUExYTkplRVdObWpWd1Bzdy1rVWRXNWNPalBQczJqUEFudmpxYTJYVEVwVHUyV2o2VjB1VE82eDgtUlFVaHdvbkI3WTNFQQ?oc=5",
+      "featured": false
+    },
+    {
       "title": "Lake Wales Commission will hear developer's plan to annex 1,202 acres, build 2,950 homes - Lakeland Ledger",
       "city": "Lakeland",
       "category": "Housing",
@@ -984,18 +996,6 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObUlNbjI0THd1Tl9BYUFqNGRsYkswbEY5cUhzTGo4TTQwb3JTMFJ1aTl3bHRmUnhJNHY2aU1RQzhWQmF0QVdSdWFrVW5PZDRkV2g4TjJ2UkwzZll3aGg5TGlMWXhoZmYwc1lqbWtSeWNON0lSYTIzVFFMY0dBUmRaRk5ZUjl2THI0dE9DNzBUTGZ0WGxZODRjQVh6LWlFaXFEbnQxM1liLVIwSnRkbmIxQTM2WTBqdw?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Winter Haven residents fume over zoning change on Thompson Nursery Road - Lakeland Ledger",
-      "city": "Lakeland",
-      "category": "Infrastructure",
-      "status": "Update",
-      "date": "Dec 10, 2025",
-      "summary": "Winter Haven residents fume over zoning change on Thompson Nursery Road Lakeland Ledger",
-      "source": "Lakeland Ledger",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOLWNEZy1QbWlaazVwZmE2TjktdVN4QWNNTllxcllGN0lwZUtFZjl5S1Y2ay12MUxzN1FnLUFEdE1nMmZIb05TTEl2QTZmRWhNTDZQTEVCcndDLUd2NGhmaDBhVFlOc05VdjlUeXFIMkprX3dtNkQ5RTFSRVVld3JmZllLRkdNT2k4MERuQW55eEhORWZVUExYTkplRVdObWpWd1Bzdy1rVWRXNWNPalBQczJqUEFudmpxYTJYVEVwVHUyV2o2VjB1VE82eDgtUlFVaHdvbkI3WTNFQQ?oc=5",
       "featured": false
     },
     {
