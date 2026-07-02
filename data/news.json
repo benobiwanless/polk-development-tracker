@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02 18:11 UTC",
+  "last_updated": "2026-07-02 19:50 UTC",
   "feed_mode": "live-expanded",
   "items": [
     {
@@ -207,18 +207,6 @@
       "featured": false
     },
     {
-      "title": "‘Quad Cities Construction Hike for Hope’ steps off Saturday in Davenport - KWQC",
-      "city": "Davenport",
-      "category": "Development",
-      "status": "Update",
-      "date": "Jun 06, 2026",
-      "summary": "‘Quad Cities Construction Hike for Hope’ steps off Saturday in Davenport KWQC",
-      "source": "KWQC",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNWlVeUVOZFVFcGNjdDVHd1RRVDE5YmdXMndVN0xLZE0zVUVVTmJlZU9SQlJIMmx1MFFOVW4tT2tpSnd3Nk9mbnVRTTNDLXhrNzBadkxwWTBvZ3hIV3NwQ2FWNXJTSmYyZXR6MUJHNm9ucl9EWlNxTmVvbVpONHR0T0JoS1VGWTg1d0xGcUV4T3JFNVh3ZkdDNHpVeWTSAbABQVVfeXFMTjNueVFyVFBNTE5RLUtyTmc3T2ZwWmFNOWUxTmFBTWU1bjB6dDlEcUNlTWZlTktJc2swcWxYaF9CaEpTdVVDN0R3MlFveWQ2UWRnRmFCSUNkTEtodkp0Nm9lSlR1encyNW9ZM0dDZFJiRGN1MHRuOEI1ZEpjY2Z4cXU2NS10NVFhQVJobHRELWhNcENjcjJmWTBtRXFGMEZPdkpNWEFvdXBNejZ1UDNXYV8?oc=5",
-      "featured": false
-    },
-    {
       "title": "Lake Wales to transform decades-old public housing complex into af­fordable housing - Bay News 9",
       "city": "Lake Wales",
       "category": "Housing",
@@ -231,13 +219,25 @@
       "featured": false
     },
     {
-      "title": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay - yahoo.com",
+      "title": "‘Quad Cities Construction Hike for Hope’ steps off Saturday in Davenport - KWQC",
+      "city": "Davenport",
+      "category": "Development",
+      "status": "Update",
+      "date": "Jun 06, 2026",
+      "summary": "‘Quad Cities Construction Hike for Hope’ steps off Saturday in Davenport KWQC",
+      "source": "KWQC",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNWlVeUVOZFVFcGNjdDVHd1RRVDE5YmdXMndVN0xLZE0zVUVVTmJlZU9SQlJIMmx1MFFOVW4tT2tpSnd3Nk9mbnVRTTNDLXhrNzBadkxwWTBvZ3hIV3NwQ2FWNXJTSmYyZXR6MUJHNm9ucl9EWlNxTmVvbVpONHR0T0JoS1VGWTg1d0xGcUV4T3JFNVh3ZkdDNHpVeWTSAbABQVVfeXFMTjNueVFyVFBNTE5RLUtyTmc3T2ZwWmFNOWUxTmFBTWU1bjB6dDlEcUNlTWZlTktJc2swcWxYaF9CaEpTdVVDN0R3MlFveWQ2UWRnRmFCSUNkTEtodkp0Nm9lSlR1encyNW9ZM0dDZFJiRGN1MHRuOEI1ZEpjY2Z4cXU2NS10NVFhQVJobHRELWhNcENjcjJmWTBtRXFGMEZPdkpNWEFvdXBNejZ1UDNXYV8?oc=5",
+      "featured": false
+    },
+    {
+      "title": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay - Yahoo",
       "city": "Davenport",
       "category": "Restaurant",
       "status": "Update",
       "date": "Jun 21, 2026",
-      "summary": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay yahoo.com",
-      "source": "yahoo.com",
+      "summary": "CAVA opens new Davenport restaurant, raises funds for Feeding Tampa Bay Yahoo",
+      "source": "Yahoo",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWHFwV3J5LURRMVRHUTJpRDhjb3R6WXZfcjVvSXBkTldEUEZuY0JueWxOb3BiZXBHd2duWkFJTmNhc0U0eFVKRmZmaENGcTRvaWFKYUlUaFJkYkRpelliQVotU0oxVmhZcW5ES2RPRUVaUEdQN3g4U2pnQnNvSm5kQW1sV1NINHNvUFNDSnNVWnVNNmQ5WDVZ?oc=5",
       "featured": false
@@ -387,6 +387,18 @@
       "featured": false
     },
     {
+      "title": "Polk County School Board discusses rezoning certain - wtsp.com",
+      "city": "Polk County",
+      "category": "Community",
+      "status": "Coming Soon",
+      "date": "Aug 12, 2025",
+      "summary": "Polk County School Board discusses rezoning certain wtsp.com",
+      "source": "wtsp.com",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1pKR3k1UjhrMVV4VnVIZ3o5Nk00SndUUzlqYm11RXZPVVJkNWpDRzFXMzVmU1pUNmpxZWlYcWphNjZtSUVWSy1oYWsxX2ZVX2tDOTNLVjI3T0paTE9GRU1HazUyYkxEWnZodUlfTWNLQ3ROa0tkbVhSdTRyX0pIQmtGdS1DNHFuaHFILUJ5TFN1UDZMR2huWHNVOUZnYUJ5TnFOaF9KeGtVSElBS0VsTk1oZHBkWUYzRUFyQ1R3RQ?oc=5",
+      "featured": false
+    },
+    {
       "title": "Virtual town hall for parents to learn about Polk County high school rezoning proposal - FOX 13 Tampa Bay",
       "city": "Polk County",
       "category": "Community",
@@ -408,18 +420,6 @@
       "source": "WFLA",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOEtaV21Pck1WRWd6V3V4UWpBUzYxa3hxbC1YWll6ajNOQ1RMRS01TUQyR0JZRzJxMTNTUDdGNXZ6THMtdkNYaDRzZEVTdHlUVm4teWtlRXJjVlRmVXltRGo3SmdxWXo4TjdtSWpXYTM5a2FYdlQtb2V0Y0NnWUl2OUx0dVQ2Y1BPeHJrM2w0eE8tWVI0VVZHY0piMktpMXZrdUxSUS0wR294Zk5ubU9v0gG0AUFVX3lxTE9SUEFrejZBT3V3RDlpZzl4OXZXbEdVUEs1S3hWMFQ4Y0s4ZjEwMjVCa2QyOGU4aS1BMnh4T2VHQ3FkUHdCR0VoU252UkcyMVdLcFB3OERneFNlRjZfY3diWklid3FfTXJNeFdUMVpobTBmd0hMWnhOamtmdTFsZW03NXdpLUZtYzZlTzZwNU5SRDVrUlhoa1UtSnRVc1dxY1dlXzd5MlNfamU2YkV4WDlfSEZ4Mw?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Polk County School Board discusses rezoning certain - wtsp.com",
-      "city": "Polk County",
-      "category": "Community",
-      "status": "Coming Soon",
-      "date": "Aug 12, 2025",
-      "summary": "Polk County School Board discusses rezoning certain wtsp.com",
-      "source": "wtsp.com",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa1pKR3k1UjhrMVV4VnVIZ3o5Nk00SndUUzlqYm11RXZPVVJkNWpDRzFXMzVmU1pUNmpxZWlYcWphNjZtSUVWSy1oYWsxX2ZVX2tDOTNLVjI3T0paTE9GRU1HazUyYkxEWnZodUlfTWNLQ3ROa0tkbVhSdTRyX0pIQmtGdS1DNHFuaHFILUJ5TFN1UDZMR2huWHNVOUZnYUJ5TnFOaF9KeGtVSElBS0VsTk1oZHBkWUYzRUFyQ1R3RQ?oc=5",
       "featured": false
     },
     {
@@ -915,6 +915,18 @@
       "featured": false
     },
     {
+      "title": "Denied at first, Morgan Creek gets another chance at expansion - Lakeland Ledger",
+      "city": "Lakeland",
+      "category": "Development",
+      "status": "Update",
+      "date": "Nov 17, 2021",
+      "summary": "Denied at first, Morgan Creek gets another chance at expansion Lakeland Ledger",
+      "source": "Lakeland Ledger",
+      "image": "",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaHphVjdJbmlFZkxDNG4xNmpveW9jTHhYWnZ4cWxLbmhUNmxYbGpOc05IelZSRG9vWjBMR1J2WHRMdE9uYlRrNWFsejhGWHNaVW9lVHRqeDlZUTVzcXNsamI2c0R4bkRETmM1MG1qMlh6b1NRaS1ra0p6YUoxY2IxeG1KWVlUbi1lblkycEszNnpxaDRlZHVMM1dXSjFnNktZNEtFcC04UGtmX05BRHNYUFc5Y0xXUDRPX3k4NFdINms5QjJHeDhZQVJqWk8tdmRRQ1RqWUJMdDVJR1ozbVE?oc=5",
+      "featured": false
+    },
+    {
       "title": "Lakeland Commission approves land use changes related to shipping containers, mobile home parks - Lakeland Ledger",
       "city": "Lakeland",
       "category": "Community",
@@ -1056,18 +1068,6 @@
       "source": "Lakeland Ledger",
       "image": "",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQU3lXOVpFZ3hWQVNZTmRaTzNWSUxWSzRJZnVEaU54YlpvT0taZHM4ZGtVeFpBandTSlZwNnNvWWRQeTgyNEctRzZOUXBocTV5M1NnTGZzakhYcFlOZEU0dFJIX1pxNUZzeVFLUWNMYUg2dFBDazhUR2h3aEdYQWFXaWFhc3FibGpMT0hrY1N1clczQ1pXVEJJeDVzVUNBeXhEUWRFR0tGLV9pYzZxRVRLc25CUzhmZTZ5TFJrYm1yb2N1RWRkdVE?oc=5",
-      "featured": false
-    },
-    {
-      "title": "Expanding in Wahneta: Plaza Mexico Plans Expansion Project - Lakeland Ledger",
-      "city": "Lakeland",
-      "category": "Retail",
-      "status": "Update",
-      "date": "Sep 24, 2014",
-      "summary": "Expanding in Wahneta: Plaza Mexico Plans Expansion Project Lakeland Ledger",
-      "source": "Lakeland Ledger",
-      "image": "",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWhycTBsOXhuN3hoUnUwT2wxSUpaRkx1cE1GQTBGckZxVXFBZ0J0NnZPWlMzV05PcFBXUm14X0NMOUpOWW1RQ1RNVEl3NkdWcExTazJGN0dfSk5nVmpuWnBPd3ZhcTUwYnZxM2Y4Vk9qeHN5MFloVFhJejFzVkJacU5KSV84N0RxRzducnRyQWNnRmlHMU9icg?oc=5",
       "featured": false
     },
     {
